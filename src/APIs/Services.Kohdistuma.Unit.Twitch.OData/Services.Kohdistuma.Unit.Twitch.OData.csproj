@@ -14,5 +14,9 @@
     <PackageReference Include="OrchardCore.Application.Cms.Core.Targets" Version="1.8.3" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\JTSKU Twitch Orleans\JTSKU Twitch Orleans.ServiceDefaults\JTSKU Twitch Orleans.ServiceDefaults.csproj" />
+  </ItemGroup>
+
 
 </Project>

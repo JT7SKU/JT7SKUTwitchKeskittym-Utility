@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Orleans;
@@ -32,7 +33,7 @@ namespace Services.Kohdistuma.Unit.Twitch.OData
                         options.SecretKey = "test";
                         options.Service = "EU-West-2";
 
-                    });
+                    }).Services.AddOpenTelemetry();
             })
 
                 .ConfigureWebHostDefaults(webBuilder =>

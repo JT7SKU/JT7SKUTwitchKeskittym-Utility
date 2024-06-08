@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Services.Kirjasto.Unit.Twitch.Interfaces")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+88b7577a628dfcd6160736ea519098e9de25d338")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bc91b1970b8c7bd397b77a895358f27e9f780d14")]
 [assembly: System.Reflection.AssemblyProductAttribute("Services.Kirjasto.Unit.Twitch.Interfaces")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Services.Kirjasto.Unit.Twitch.Interfaces")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
