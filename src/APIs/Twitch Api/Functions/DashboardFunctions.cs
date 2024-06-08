@@ -28,7 +28,10 @@ namespace Twitch_Api.Functions
         [Function(nameof(Dashboard))]
         public static HttpResponseMessage Dashboard([HttpTrigger(AuthorizationLevel.Anonymous)]HttpRequest req, ExecutionContext context)
         {
-            var path = Path.Combine(context.FunctionAppDirectory, "dashboard.html");
+            var local_root = Environment.GetEnvironmentVariable("AzureWebJobsScriptRoot");
+            var azure_root = $"{Environment.GetEnvironmentVariable("HOME")}/site/wwwroot";
+            var actual_root = local_root ?? azure_root;
+            var path = Path.Combine(actual_root, "dashboard.html");
             var content = File.ReadAllText(path);
             var result = new HttpResponseMessage(HttpStatusCode.OK);
             result.Content = new StringContent(content, Encoding.UTF8, "text/html");

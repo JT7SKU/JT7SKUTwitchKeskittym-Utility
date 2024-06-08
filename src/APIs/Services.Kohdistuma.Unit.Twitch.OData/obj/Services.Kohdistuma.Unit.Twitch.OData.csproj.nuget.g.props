@@ -17,9 +17,6 @@
     <Import Project="$(NuGetPackageRoot)orchardcore.themes\1.8.3\build\OrchardCore.Themes.props" Condition="Exists('$(NuGetPackageRoot)orchardcore.themes\1.8.3\build\OrchardCore.Themes.props')" />
     <Import Project="$(NuGetPackageRoot)orchardcore.admin\1.8.3\build\OrchardCore.Admin.props" Condition="Exists('$(NuGetPackageRoot)orchardcore.admin\1.8.3\build\OrchardCore.Admin.props')" />
     <Import Project="$(NuGetPackageRoot)theadmin\1.8.3\build\TheAdmin.props" Condition="Exists('$(NuGetPackageRoot)theadmin\1.8.3\build\TheAdmin.props')" />
-    <Import Project="$(NuGetPackageRoot)microsoft.extensions.configuration.usersecrets\8.0.0\buildTransitive\net6.0\Microsoft.Extensions.Configuration.UserSecrets.props" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.configuration.usersecrets\8.0.0\buildTransitive\net6.0\Microsoft.Extensions.Configuration.UserSecrets.props')" />
-    <Import Project="$(NuGetPackageRoot)microsoft.entityframeworkcore\8.0.4\buildTransitive\net8.0\Microsoft.EntityFrameworkCore.props" Condition="Exists('$(NuGetPackageRoot)microsoft.entityframeworkcore\8.0.4\buildTransitive\net8.0\Microsoft.EntityFrameworkCore.props')" />
-    <Import Project="$(NuGetPackageRoot)microsoft.orleans.codegenerator\8.1.0\buildTransitive\Microsoft.Orleans.CodeGenerator.props" Condition="Exists('$(NuGetPackageRoot)microsoft.orleans.codegenerator\8.1.0\buildTransitive\Microsoft.Orleans.CodeGenerator.props')" />
     <Import Project="$(NuGetPackageRoot)orchardcore.xmlrpc\1.8.3\build\OrchardCore.XmlRpc.props" Condition="Exists('$(NuGetPackageRoot)orchardcore.xmlrpc\1.8.3\build\OrchardCore.XmlRpc.props')" />
     <Import Project="$(NuGetPackageRoot)orchardcore.workflows\1.8.3\build\OrchardCore.Workflows.props" Condition="Exists('$(NuGetPackageRoot)orchardcore.workflows\1.8.3\build\OrchardCore.Workflows.props')" />
     <Import Project="$(NuGetPackageRoot)orchardcore.widgets\1.8.3\build\OrchardCore.Widgets.props" Condition="Exists('$(NuGetPackageRoot)orchardcore.widgets\1.8.3\build\OrchardCore.Widgets.props')" />
@@ -101,6 +98,8 @@
     <Import Project="$(NuGetPackageRoot)orchardcore.adminmenu\1.8.3\build\OrchardCore.AdminMenu.props" Condition="Exists('$(NuGetPackageRoot)orchardcore.adminmenu\1.8.3\build\OrchardCore.AdminMenu.props')" />
     <Import Project="$(NuGetPackageRoot)orchardcore.admindashboard\1.8.3\build\OrchardCore.AdminDashboard.props" Condition="Exists('$(NuGetPackageRoot)orchardcore.admindashboard\1.8.3\build\OrchardCore.AdminDashboard.props')" />
     <Import Project="$(NuGetPackageRoot)orchardcore.application.cms.core.targets\1.8.3\build\OrchardCore.Application.Cms.Core.Targets.props" Condition="Exists('$(NuGetPackageRoot)orchardcore.application.cms.core.targets\1.8.3\build\OrchardCore.Application.Cms.Core.Targets.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.extensions.configuration.usersecrets\8.0.0\buildTransitive\net6.0\Microsoft.Extensions.Configuration.UserSecrets.props" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.configuration.usersecrets\8.0.0\buildTransitive\net6.0\Microsoft.Extensions.Configuration.UserSecrets.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.orleans.codegenerator\8.1.0\buildTransitive\Microsoft.Orleans.CodeGenerator.props" Condition="Exists('$(NuGetPackageRoot)microsoft.orleans.codegenerator\8.1.0\buildTransitive\Microsoft.Orleans.CodeGenerator.props')" />
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <PkgMicrosoft_CodeAnalysis_Analyzers Condition=" '$(PkgMicrosoft_CodeAnalysis_Analyzers)' == '' ">C:\Users\janis\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.3</PkgMicrosoft_CodeAnalysis_Analyzers>

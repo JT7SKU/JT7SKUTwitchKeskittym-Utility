@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "K:\\source\\JT7SKU.Lib.Twitch\\Services.Kirjasto.Unit.Twitch.Interfaces\\Services.Kirjasto.Unit.Twitch.Interfaces.csproj": {}
+    "K:\\source\\JT7SKUTwitchKeskittym-Utility\\src\\Kontraktit\\Services.Kirjasto.Unit.Twitch.Interfaces\\Services.Kirjasto.Unit.Twitch.Interfaces.csproj": {}
   },
   "projects": {
     "K:\\source\\JT7SKU.Lib.Twitch\\JT7SKU.Lib.Twitch\\JT7SKU.Lib.Twitch.csproj": {
@@ -113,14 +113,14 @@
         }
       }
     },
-    "K:\\source\\JT7SKU.Lib.Twitch\\Services.Kirjasto.Unit.Twitch.Interfaces\\Services.Kirjasto.Unit.Twitch.Interfaces.csproj": {
+    "K:\\source\\JT7SKUTwitchKeskittym-Utility\\src\\Kontraktit\\Services.Kirjasto.Unit.Twitch.Interfaces\\Services.Kirjasto.Unit.Twitch.Interfaces.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "K:\\source\\JT7SKU.Lib.Twitch\\Services.Kirjasto.Unit.Twitch.Interfaces\\Services.Kirjasto.Unit.Twitch.Interfaces.csproj",
+        "projectUniqueName": "K:\\source\\JT7SKUTwitchKeskittym-Utility\\src\\Kontraktit\\Services.Kirjasto.Unit.Twitch.Interfaces\\Services.Kirjasto.Unit.Twitch.Interfaces.csproj",
         "projectName": "Services.Kirjasto.Unit.Twitch.Interfaces",
-        "projectPath": "K:\\source\\JT7SKU.Lib.Twitch\\Services.Kirjasto.Unit.Twitch.Interfaces\\Services.Kirjasto.Unit.Twitch.Interfaces.csproj",
+        "projectPath": "K:\\source\\JT7SKUTwitchKeskittym-Utility\\src\\Kontraktit\\Services.Kirjasto.Unit.Twitch.Interfaces\\Services.Kirjasto.Unit.Twitch.Interfaces.csproj",
         "packagesPath": "C:\\Users\\janis\\.nuget\\packages\\",
-        "outputPath": "K:\\source\\JT7SKU.Lib.Twitch\\Services.Kirjasto.Unit.Twitch.Interfaces\\obj\\",
+        "outputPath": "K:\\source\\JT7SKUTwitchKeskittym-Utility\\src\\Kontraktit\\Services.Kirjasto.Unit.Twitch.Interfaces\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Kehitys\\Tools\\VS\\Shared\\NuGetPackages"

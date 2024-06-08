@@ -14,9 +14,5 @@
     <PackageReference Include="OrchardCore.Application.Cms.Core.Targets" Version="1.8.3" />
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\Services.Kirjasto.Unit.Twitch.Grains\Services.Kirjasto.Unit.Twitch.Grains.csproj" />
-  </ItemGroup>
-
 
 </Project>

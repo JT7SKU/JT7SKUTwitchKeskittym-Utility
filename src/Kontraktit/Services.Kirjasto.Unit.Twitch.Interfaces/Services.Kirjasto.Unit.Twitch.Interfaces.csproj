@@ -9,7 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\JT7SKU.Lib.Twitch\JT7SKU.Lib.Twitch.csproj" />
+    <ProjectReference Include="..\..\..\..\JT7SKU.Lib.Twitch\JT7SKU.Lib.Twitch\JT7SKU.Lib.Twitch.csproj" />
   </ItemGroup>
 
 </Project>

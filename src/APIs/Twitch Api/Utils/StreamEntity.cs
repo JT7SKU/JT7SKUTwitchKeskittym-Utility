@@ -1,4 +1,5 @@
-﻿using JT7SKU.Lib.Twitch.Models;
+﻿
+using JT7SKU.Lib.Twitch.Models;
 using Microsoft.Azure.Functions.Worker;
 using Microsoft.DurableTask.Entities;
 using Microsoft.Extensions.Logging;

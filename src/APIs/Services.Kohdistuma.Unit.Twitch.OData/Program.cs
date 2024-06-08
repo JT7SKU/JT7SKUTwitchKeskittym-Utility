@@ -9,8 +9,6 @@ using Microsoft.Extensions.Logging;
 using Orleans;
 using Orleans.Hosting;
 
-using Services.Kirjasto.Unit.Twitch.Grains;
-
 namespace Services.Kohdistuma.Unit.Twitch.OData
 {
     public class Program

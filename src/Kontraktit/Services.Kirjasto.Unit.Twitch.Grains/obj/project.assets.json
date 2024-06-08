@@ -4589,8 +4589,8 @@
     },
     "JT7SKU.StreamService.KirjastoUtility.Twitch/2.0.0-alpha": {
       "type": "project",
-      "path": "../JT7SKU.Lib.Twitch/JT7SKU.Lib.Twitch.csproj",
-      "msbuildProject": "../JT7SKU.Lib.Twitch/JT7SKU.Lib.Twitch.csproj"
+      "path": "../../../../JT7SKU.Lib.Twitch/JT7SKU.Lib.Twitch/JT7SKU.Lib.Twitch.csproj",
+      "msbuildProject": "../../../../JT7SKU.Lib.Twitch/JT7SKU.Lib.Twitch/JT7SKU.Lib.Twitch.csproj"
     },
     "Services.Kirjasto.Unit.Twitch.Interfaces/1.0.0": {
       "type": "project",
@@ -4612,11 +4612,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "K:\\source\\JT7SKU.Lib.Twitch\\Services.Kirjasto.Unit.Twitch.Grains\\Services.Kirjasto.Unit.Twitch.Grains.csproj",
+      "projectUniqueName": "K:\\source\\JT7SKUTwitchKeskittym-Utility\\src\\Kontraktit\\Services.Kirjasto.Unit.Twitch.Grains\\Services.Kirjasto.Unit.Twitch.Grains.csproj",
       "projectName": "Services.Kirjasto.Unit.Twitch.Grains",
-      "projectPath": "K:\\source\\JT7SKU.Lib.Twitch\\Services.Kirjasto.Unit.Twitch.Grains\\Services.Kirjasto.Unit.Twitch.Grains.csproj",
+      "projectPath": "K:\\source\\JT7SKUTwitchKeskittym-Utility\\src\\Kontraktit\\Services.Kirjasto.Unit.Twitch.Grains\\Services.Kirjasto.Unit.Twitch.Grains.csproj",
       "packagesPath": "C:\\Users\\janis\\.nuget\\packages\\",
-      "outputPath": "K:\\source\\JT7SKU.Lib.Twitch\\Services.Kirjasto.Unit.Twitch.Grains\\obj\\",
+      "outputPath": "K:\\source\\JT7SKUTwitchKeskittym-Utility\\src\\Kontraktit\\Services.Kirjasto.Unit.Twitch.Grains\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Kehitys\\Tools\\VS\\Shared\\NuGetPackages"
@@ -4638,8 +4638,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "K:\\source\\JT7SKU.Lib.Twitch\\Services.Kirjasto.Unit.Twitch.Interfaces\\Services.Kirjasto.Unit.Twitch.Interfaces.csproj": {
-              "projectPath": "K:\\source\\JT7SKU.Lib.Twitch\\Services.Kirjasto.Unit.Twitch.Interfaces\\Services.Kirjasto.Unit.Twitch.Interfaces.csproj"
+            "K:\\source\\JT7SKUTwitchKeskittym-Utility\\src\\Kontraktit\\Services.Kirjasto.Unit.Twitch.Interfaces\\Services.Kirjasto.Unit.Twitch.Interfaces.csproj": {
+              "projectPath": "K:\\source\\JT7SKUTwitchKeskittym-Utility\\src\\Kontraktit\\Services.Kirjasto.Unit.Twitch.Interfaces\\Services.Kirjasto.Unit.Twitch.Interfaces.csproj"
             }
           }
         }

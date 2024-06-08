@@ -12,7 +12,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Services.Kirjasto.Unit.Twitch.Interfaces\Services.Kirjasto.Unit.Twitch.Interfaces.csproj" />
-    <ProjectReference Include="..\StreamKomponentsUnit.Twitch.Services\StreamKomponentsUnit.Twitch.Services.csproj" />
+    <ProjectReference Include="..\..\Kontraktit\Services.Kirjasto.Unit.Twitch.Interfaces\Services.Kirjasto.Unit.Twitch.Interfaces.csproj" />
   </ItemGroup>
 </Project>

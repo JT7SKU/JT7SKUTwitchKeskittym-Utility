@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AD96b/JVjs4=",
+  "dgSpecHash": "pA3EjscFqWE=",
   "success": true,
-  "projectFilePath": "K:\\source\\JT7SKU.Lib.Twitch\\Services.Kirjasto.Unit.Twitch.Interfaces\\Services.Kirjasto.Unit.Twitch.Interfaces.csproj",
+  "projectFilePath": "K:\\source\\JT7SKUTwitchKeskittym-Utility\\src\\Kontraktit\\Services.Kirjasto.Unit.Twitch.Interfaces\\Services.Kirjasto.Unit.Twitch.Interfaces.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\janis\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\janis\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\8.0.4\\microsoft.aspnetcore.authentication.jwtbearer.8.0.4.nupkg.sha512",
