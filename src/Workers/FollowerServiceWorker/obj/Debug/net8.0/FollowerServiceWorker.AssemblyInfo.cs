@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FollowerServiceWorker")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d4e5d08d0fcbdfcc7167db5e5b4d2c8f5de3d773")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+88b7577a628dfcd6160736ea519098e9de25d338")]
 [assembly: System.Reflection.AssemblyProductAttribute("FollowerServiceWorker")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FollowerServiceWorker")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
