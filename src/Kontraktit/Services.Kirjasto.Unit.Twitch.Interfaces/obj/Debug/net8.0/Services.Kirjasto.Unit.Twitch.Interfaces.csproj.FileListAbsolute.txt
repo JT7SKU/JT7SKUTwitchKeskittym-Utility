@@ -1,0 +1,16 @@
+K:\source\JT7SKU.Lib.Twitch\Services.Kirjasto.Unit.Twitch.Interfaces\bin\Debug\net8.0\Services.Kirjasto.Unit.Twitch.Interfaces.deps.json
+K:\source\JT7SKU.Lib.Twitch\Services.Kirjasto.Unit.Twitch.Interfaces\bin\Debug\net8.0\Services.Kirjasto.Unit.Twitch.Interfaces.dll
+K:\source\JT7SKU.Lib.Twitch\Services.Kirjasto.Unit.Twitch.Interfaces\bin\Debug\net8.0\Services.Kirjasto.Unit.Twitch.Interfaces.pdb
+K:\source\JT7SKU.Lib.Twitch\Services.Kirjasto.Unit.Twitch.Interfaces\bin\Debug\net8.0\JT7SKU.Lib.Twitch.dll
+K:\source\JT7SKU.Lib.Twitch\Services.Kirjasto.Unit.Twitch.Interfaces\bin\Debug\net8.0\JT7SKU.Lib.Twitch.pdb
+K:\source\JT7SKU.Lib.Twitch\Services.Kirjasto.Unit.Twitch.Interfaces\obj\Debug\net8.0\Services.Kirjasto.Unit.Twitch.Interfaces.csproj.AssemblyReference.cache
+K:\source\JT7SKU.Lib.Twitch\Services.Kirjasto.Unit.Twitch.Interfaces\obj\Debug\net8.0\Services.Kirjasto.Unit.Twitch.Interfaces.GeneratedMSBuildEditorConfig.editorconfig
+K:\source\JT7SKU.Lib.Twitch\Services.Kirjasto.Unit.Twitch.Interfaces\obj\Debug\net8.0\Services.Kirjasto.Unit.Twitch.Interfaces.AssemblyInfoInputs.cache
+K:\source\JT7SKU.Lib.Twitch\Services.Kirjasto.Unit.Twitch.Interfaces\obj\Debug\net8.0\Services.Kirjasto.Unit.Twitch.Interfaces.AssemblyInfo.cs
+K:\source\JT7SKU.Lib.Twitch\Services.Kirjasto.Unit.Twitch.Interfaces\obj\Debug\net8.0\Services.Kirjasto.Unit.Twitch.Interfaces.csproj.CoreCompileInputs.cache
+K:\source\JT7SKU.Lib.Twitch\Services.Kirjasto.Unit.Twitch.Interfaces\obj\Debug\net8.0\Services.Kirjasto.Unit.Twitch.Interfaces.sourcelink.json
+K:\source\JT7SKU.Lib.Twitch\Services.Kirjasto.Unit.Twitch.Interfaces\obj\Debug\net8.0\Services.58CFBEE3.Up2Date
+K:\source\JT7SKU.Lib.Twitch\Services.Kirjasto.Unit.Twitch.Interfaces\obj\Debug\net8.0\Services.Kirjasto.Unit.Twitch.Interfaces.dll
+K:\source\JT7SKU.Lib.Twitch\Services.Kirjasto.Unit.Twitch.Interfaces\obj\Debug\net8.0\refint\Services.Kirjasto.Unit.Twitch.Interfaces.dll
+K:\source\JT7SKU.Lib.Twitch\Services.Kirjasto.Unit.Twitch.Interfaces\obj\Debug\net8.0\Services.Kirjasto.Unit.Twitch.Interfaces.pdb
+K:\source\JT7SKU.Lib.Twitch\Services.Kirjasto.Unit.Twitch.Interfaces\obj\Debug\net8.0\ref\Services.Kirjasto.Unit.Twitch.Interfaces.dll

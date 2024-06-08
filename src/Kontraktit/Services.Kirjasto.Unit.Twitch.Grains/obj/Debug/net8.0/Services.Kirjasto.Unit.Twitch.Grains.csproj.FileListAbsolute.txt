@@ -1,0 +1,6 @@
+K:\source\JT7SKU.Lib.Twitch\Services.Kirjasto.Unit.Twitch.Grains\obj\Debug\net8.0\Services.Kirjasto.Unit.Twitch.Grains.csproj.AssemblyReference.cache
+K:\source\JT7SKU.Lib.Twitch\Services.Kirjasto.Unit.Twitch.Grains\obj\Debug\net8.0\Services.Kirjasto.Unit.Twitch.Grains.GeneratedMSBuildEditorConfig.editorconfig
+K:\source\JT7SKU.Lib.Twitch\Services.Kirjasto.Unit.Twitch.Grains\obj\Debug\net8.0\Services.Kirjasto.Unit.Twitch.Grains.AssemblyInfoInputs.cache
+K:\source\JT7SKU.Lib.Twitch\Services.Kirjasto.Unit.Twitch.Grains\obj\Debug\net8.0\Services.Kirjasto.Unit.Twitch.Grains.AssemblyInfo.cs
+K:\source\JT7SKU.Lib.Twitch\Services.Kirjasto.Unit.Twitch.Grains\obj\Debug\net8.0\Services.Kirjasto.Unit.Twitch.Grains.csproj.CoreCompileInputs.cache
+K:\source\JT7SKU.Lib.Twitch\Services.Kirjasto.Unit.Twitch.Grains\obj\Debug\net8.0\Services.Kirjasto.Unit.Twitch.Grains.sourcelink.json

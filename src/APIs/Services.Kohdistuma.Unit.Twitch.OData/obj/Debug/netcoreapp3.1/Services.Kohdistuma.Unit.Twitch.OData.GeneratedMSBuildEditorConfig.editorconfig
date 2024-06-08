@@ -1,0 +1,5 @@
+is_global = true
+build_property.RootNamespace = Services.Kohdistuma.Unit.Twitch.OData
+build_property.ProjectDir = K:\source\JT7SKU.Lib.Twitch\Services.Kohdistuma.Unit.Twitch.OData\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
