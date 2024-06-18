@@ -6,7 +6,8 @@ using Orleans.Hosting;
 using Orleans;
 using System.Threading.Tasks;
 using System.Net;
-using Services.Kirjasto.Unit.Twitch.Grains;
+using Microsoft.Extensions.DependencyInjection;
+using OpenTelemetry;
 
 namespace StreamKomponentsUnit.Twitch.Services
 {
@@ -15,7 +16,13 @@ namespace StreamKomponentsUnit.Twitch.Services
          
         public static void Main(string[] args)
         {
-            SiloHostBuilder(args).Build().Run();
+            var builder = SiloHostBuilder(args);
+            builder.ConfigureServices(services =>
+            {
+                services.AddOpenTelemetry().UseOtlpExporter();
+            });
+
+                builder.Build().Run();
         }
         public static IHostBuilder SiloHostBuilder (string[] args)
         {

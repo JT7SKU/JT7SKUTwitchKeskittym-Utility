@@ -332,6 +332,14 @@
             "Microsoft.Orleans.Sdk": {
               "target": "Package",
               "version": "[8.1.0, )"
+            },
+            "OpenTelemetry.Exporter.OpenTelemetryProtocol": {
+              "target": "Package",
+              "version": "[1.8.1, )"
+            },
+            "OpenTelemetry.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[1.8.1, )"
             }
           },
           "imports": [

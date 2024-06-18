@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Services.Kirjasto.Unit.Twitch.Grains")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bc91b1970b8c7bd397b77a895358f27e9f780d14")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5d79394cbb3d7238e5f847bee6bab5009d903e60")]
 [assembly: System.Reflection.AssemblyProductAttribute("Services.Kirjasto.Unit.Twitch.Grains")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Services.Kirjasto.Unit.Twitch.Grains")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

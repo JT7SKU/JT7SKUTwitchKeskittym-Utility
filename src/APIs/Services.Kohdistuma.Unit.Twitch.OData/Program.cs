@@ -7,6 +7,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using OpenTelemetry;
 using Orleans;
 using Orleans.Hosting;
 
@@ -16,7 +17,13 @@ namespace Services.Kohdistuma.Unit.Twitch.OData
     {
         public static void Main(string[] args)
         {
-            CreateHostBuilder(args).Build().Run();
+            var builder = CreateHostBuilder(args);
+            builder.ConfigureServices(services => 
+            {
+                services.AddOpenTelemetry().UseOtlpExporter();
+            
+           });
+                builder.Build().Run();
         }
 
         public static IHostBuilder CreateHostBuilder(string[] args)
