@@ -4,6 +4,8 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>JT7SKUtwitchR.AppHost</AssemblyName>
+    <RootNamespace>JT7SKUtwitchR.AppHost</RootNamespace>    
     <Nullable>enable</Nullable>
     <IsAspireHost>true</IsAspireHost>
     <UserSecretsId>64ba3970-d850-410f-b026-0283c9bb7a10</UserSecretsId>
