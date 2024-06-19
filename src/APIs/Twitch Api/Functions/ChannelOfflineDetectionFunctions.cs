@@ -1,7 +1,7 @@
 using System;
 using System.Threading.Tasks;
 using DurableTask.Core.Entities;
-using JT7SKU.Lib.Twitch;
+
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Azure.Functions.Worker;
 using Microsoft.DurableTask.Client.Entities;
@@ -35,12 +35,12 @@ namespace Twitch_Api.Functions
             log.LogMetric("offline", 1);
         }
 
-        [Function(nameof(GetStatus))]
-        public static async Task<IActionResult> GetStatus([HttpTrigger(AuthorizationLevel.Anonymous, "get")] HttpTriggerArgs args, [DurableClient] DurableEntityClient durableEntityClient)
-        {
-            var entity = new EntityInstanceId(nameof(ChannelEntity), args.ChannelID);
-            var device = await durableEntityClient.GetEntityAsync<ChannelEntity>(entity);
-            return new OkObjectResult(device);
-        }
+        //[Function(nameof(GetStatus))]
+        //public static async Task<IActionResult> GetStatus([HttpTrigger(AuthorizationLevel.Anonymous, "get")] string[] args, [DurableClient] DurableEntityClient durableEntityClient)
+        //{
+        //    var entity = new EntityInstanceId(nameof(ChannelEntity),);
+        //    var device = await durableEntityClient.GetEntityAsync<ChannelEntity>(entity);
+        //    return new OkObjectResult(device);
+        //}
     }
 }
