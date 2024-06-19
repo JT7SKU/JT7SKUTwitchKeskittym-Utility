@@ -1,5 +1,5 @@
 ﻿
-using JT7SKU.StreamKlientUnit.Twitch.TwitchR.Web;
+using JT7SKU.StreamKlientUnit.Twitch.TwitchR.Web.Client;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 using System.Threading.Tasks;
