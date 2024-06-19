@@ -17,9 +17,9 @@ namespace Twitch_Api.Functions
             var outputs = new List<string>();
 
             // Replace "hello" with the name of your Durable Activity Function.
-            outputs.Add(await context.CallActivityAsync<string>("GetFollowers_Hello", "Tokyo"));
-            outputs.Add(await context.CallActivityAsync<string>("GetFollowers_Hello", "Seattle"));
-            outputs.Add(await context.CallActivityAsync<string>("GetFollowers_Hello", "London"));
+            outputs.Add(await context.CallActivityAsync<string>("GetFollowers_Hello", "SharkMark"));
+            outputs.Add(await context.CallActivityAsync<string>("GetFollowers_Hello", "SharkTony"));
+            outputs.Add(await context.CallActivityAsync<string>("GetFollowers_Hello", "SharkNiklas"));
 
             // returns ["Hello Tokyo!", "Hello Seattle!", "Hello London!"]
             return outputs;

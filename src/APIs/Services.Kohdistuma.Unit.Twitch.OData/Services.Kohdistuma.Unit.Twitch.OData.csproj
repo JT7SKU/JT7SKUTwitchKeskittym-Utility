@@ -11,11 +11,10 @@
     <PackageReference Include="Microsoft.Orleans.Persistence.AzureStorage" Version="8.1.0" />
     <PackageReference Include="Microsoft.Orleans.Persistence.DynamoDB" Version="8.1.0" />
     <PackageReference Include="Microsoft.Orleans.Server" Version="8.1.0" />
+    <PackageReference Include="OpenTelemetry.Exporter.OpenTelemetryProtocol" Version="1.9.0" />
+    <PackageReference Include="OpenTelemetry.Instrumentation.AspNetCore" Version="1.9.0" />
     <PackageReference Include="OrchardCore.Application.Cms.Core.Targets" Version="1.8.3" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\..\JTSKU Twitch Orleans\JTSKU Twitch Orleans.ServiceDefaults\JTSKU Twitch Orleans.ServiceDefaults.csproj" />
+    <PackageReference Include="OpenTelemetry.Extensions.Hosting" Version="1.9.0-rc.1" />
   </ItemGroup>
 
 

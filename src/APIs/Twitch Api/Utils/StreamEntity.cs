@@ -27,14 +27,14 @@ namespace Twitch_Api.Utils
         public string TimeoutQueueMessagePopReceipt { get; set; }
 
         private readonly ILogger<ChannelEntity> logger;
-        private readonly Channel timeoutQueue;
+        //private readonly Channel timeoutQueue;
         private readonly IEnumerable<SignalRMessageAction> signalRMessages;
 
-        public ChannelEntity(string Id,ILogger<ChannelEntity> logger, Channel timeoutQueue, IEnumerable<SignalRMessageAction> signalRMessages)
+        public ChannelEntity(string Id,ILogger<ChannelEntity> logger, /*Channel timeoutQueue,*/ IEnumerable<SignalRMessageAction> signalRMessages)
         {
             this.Id = Id;
             this.logger = logger;
-            this.timeoutQueue = timeoutQueue;
+            //this.timeoutQueue = timeoutQueue;
             this.signalRMessages = signalRMessages;
 
             if (!OfflineAfter.HasValue)

@@ -1,11 +1,13 @@
-internal class Program
+namespace JT7SKUtwitchR.AppHost { 
+public class Program
 {
-    private static void Main(string[] args)
+    public static void Main(string[] args)
     {
         var builder = DistributedApplication.CreateBuilder(args);
 
-        builder.AddProject<Projects.Services_Kohdistuma_Unit_Twitch_OData>("services-kohdistuma-unit-twitch-odata");
+        builder.AddProject<Projects.Services_Kohdistuma_Unit_Twitch_OData>("KohistumuData");
 
         builder.Build().Run();
     }
+}
 }
