@@ -5,9 +5,9 @@ using System.Threading.Tasks;
 
 namespace Services.Kirjasto.Unit.Twitch.Interfaces
 {
-    public interface IFollowerWorkerGrain
+    public interface IFollowWorkerGrain
     {
-        Task AddFollower(ITwitchFollower twitchFollower);
-        Task RemoveFollower(ITwitchFollower twitchFollower);
+        Task AddFollow(ITwitchFollow twitchFollower);
+        Task RemoveFollow(ITwitchFollow twitchFollower);
     }
 }

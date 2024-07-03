@@ -7,7 +7,7 @@ using Orleans;
 
 namespace Services.Kirjasto.Unit.Twitch.Interfaces
 {
-    public interface ITwitchFollower : IGrainWithStringKey
+    public interface ITwitchFollow : IGrainWithStringKey
     {
         Task NewFollower(User user,Message message);
     }

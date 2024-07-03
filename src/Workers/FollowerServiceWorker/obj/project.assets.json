@@ -5289,9 +5289,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "K:\\source\\JT7SKUTwitchKeskittym-Utility\\src\\Workers\\FollowerServiceWorker\\FollowerServiceWorker.csproj",
-      "projectName": "FollowerServiceWorker",
-      "projectPath": "K:\\source\\JT7SKUTwitchKeskittym-Utility\\src\\Workers\\FollowerServiceWorker\\FollowerServiceWorker.csproj",
+      "projectUniqueName": "K:\\source\\JT7SKUTwitchKeskittym-Utility\\src\\Workers\\FollowerServiceWorker\\FollowServiceWorker.csproj",
+      "projectName": "FollowServiceWorker",
+      "projectPath": "K:\\source\\JT7SKUTwitchKeskittym-Utility\\src\\Workers\\FollowerServiceWorker\\FollowServiceWorker.csproj",
       "packagesPath": "C:\\Users\\janis\\.nuget\\packages\\",
       "outputPath": "K:\\source\\JT7SKUTwitchKeskittym-Utility\\src\\Workers\\FollowerServiceWorker\\obj\\",
       "projectStyle": "PackageReference",
