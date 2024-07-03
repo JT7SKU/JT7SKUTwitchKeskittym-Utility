@@ -1,5 +1,5 @@
 ﻿using System;
-
+using JT7SKU.Lib.Twitch;
 using System.Collections.Generic;
 using System.Text;
 using Orleans;
@@ -25,7 +25,7 @@ namespace Services.Kirjasto.Unit.Twitch.Grains
             throw new NotImplementedException();
         }
 
-        public void NewViewer(string message)
+        public void NewViewer(Message message)
         {
             throw new NotImplementedException();
         }

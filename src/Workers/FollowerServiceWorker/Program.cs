@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using OpenTelemetry;
+using Orleans.Hosting;
 
 namespace FollowerServiceWorker
 {
@@ -18,9 +19,10 @@ namespace FollowerServiceWorker
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)            
             .UseWindowsService()
+            .UseOrleans(builder => builder.UseLocalhostClustering())
                 .ConfigureServices((hostContext, services) =>
                 {
-                    services.AddHostedService<Worker>();
+                    services.AddHostedService<FollowWorker>();
                     services.AddOpenTelemetry().UseOtlpExporter();
                 });
     }

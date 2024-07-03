@@ -7,7 +7,9 @@ using System.Threading.Tasks;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Orleans;
+using Orleans.BroadcastChannel;
 using Orleans.Concurrency;
+using Orleans.Hosting;
 using Services.Kirjasto.Unit.Twitch.Interfaces;
 
 namespace FollowerServiceWorker
@@ -16,11 +18,11 @@ namespace FollowerServiceWorker
     public class FollowWorker :  BackgroundService, IFollowWorkerGrain
     {
         private readonly ILogger<FollowWorker> _logger;
-        //private readonly IBroadcastChannelProvider _provider;
+        private readonly IBroadcastChannelProvider _provider;
         public FollowWorker(ILogger<FollowWorker> logger, IClusterClient clusterClient)
         {
             _logger = logger;
-            //_provider= clusterClient.GetBroadcastChannelProvider(ChannelNames.FollowWorker);
+            //_provider = clusterClient.GetBroadcastChannelProvider(ChannelNames.FollowWorker);
         }
 
         public Task AddFollow(ITwitchFollow twitchFollow)

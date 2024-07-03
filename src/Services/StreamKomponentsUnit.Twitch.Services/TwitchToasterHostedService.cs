@@ -12,6 +12,7 @@ namespace StreamKomponentsUnit.Twitch.Services
 {
     public class TwitchToasterHostedService : IHostedService
     {
+        // Display as toasts 
         public Task StartAsync(CancellationToken cancellationToken)
         {
             throw new NotImplementedException();
