@@ -1,10 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using JT7SKU.Lib.Twitch;
 using Orleans;
 
-namespace Services.Kirjasto.Unit.Twitch.Interfaces
+namespace Services.Kontrakti.Unit.Twitch.Tili
 {
     public interface ITwitchViewer : IGrainObserver
     {

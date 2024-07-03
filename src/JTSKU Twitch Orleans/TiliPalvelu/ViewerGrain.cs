@@ -1,13 +1,12 @@
 ﻿using System;
-using JT7SKU.Lib.Twitch;
 using System.Collections.Generic;
 using System.Text;
 using Orleans;
 using System.Threading.Tasks;
-using Services.Kirjasto.Unit.Twitch.Interfaces;
 using System.Threading;
+using Services.Kontrakti.Unit.Twitch.Tili;
 
-namespace Services.Kirjasto.Unit.Twitch.Grains
+namespace Services.Kirjasto.Unit.Twitch.Tili
 {
     public class ViewerGrain : Grain,ITwitchViewer
     {
@@ -25,7 +24,7 @@ namespace Services.Kirjasto.Unit.Twitch.Grains
             throw new NotImplementedException();
         }
 
-        public void NewViewer(Message message)
+        public void NewViewer(string message)
         {
             throw new NotImplementedException();
         }

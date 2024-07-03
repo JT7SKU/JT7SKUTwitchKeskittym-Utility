@@ -1,13 +1,12 @@
-﻿using JT7SKU.Lib.Twitch;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Services.Kirjasto.Unit.Twitch.Interfaces
+namespace Services.Kontrakti.Unit.Twitch.Tip
 {
     public interface ITwitchTip
     {
-        Task NewTip(Message message);
+        Task NewTip(int arvo,string message);
     }
 }

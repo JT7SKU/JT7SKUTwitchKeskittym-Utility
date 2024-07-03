@@ -2,7 +2,6 @@
 using Microsoft.Extensions.Logging;
 using Orleans;
 using Orleans.Providers;
-using Services.Kirjasto.Unit.Twitch.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Text;

@@ -4,13 +4,14 @@ using System.Text;
 using System.Collections.Immutable;
 using System.Threading.Tasks;
 using Orleans;
-using Services.Kirjasto.Unit.Twitch.Interfaces;
 using JT7SKU.Lib.Twitch;
 using Orleans.Runtime;
 using JT7SKU.Lib.Twitch.Models;
 using System.Threading;
+using Services.Kontrakti.Unit.Twitch.Tili;
+using Services.Kontrakti.Unit.Twitch.Seuranta;
 
-namespace Services.Kirjasto.Unit.Twitch.Grains
+namespace Services.Kirjasto.Unit.Twitch.Tili
 {
     public class BroadcasterGrain :Grain, ITwitchBroadcaster
     {
@@ -24,14 +25,14 @@ namespace Services.Kirjasto.Unit.Twitch.Grains
         {
             await Task.CompletedTask;
         }
-        public Task<User> GetBroadcasterAsync() => Task.FromResult(_broadcasterProfile.State.User);
+        public Task<IUser> GetBroadcasterAsync() => Task.FromResult(_broadcasterProfile.State.User);
         public async Task SetBroadcasterAsync(Broadcaster broadcaster)
         {
             _broadcasterProfile.State.User = broadcaster.User;
             _broadcasterProfile.State.UserStatus = UserStatus.Broadcaster;
             await _broadcasterProfile.WriteStateAsync();
         }
-        public Task AddFollowerAsync(string username, ITwitchFollower follower)
+        public Task AddFollowerAsync(string username, ITwitchFollow follower)
         {
             throw new NotImplementedException();
         }

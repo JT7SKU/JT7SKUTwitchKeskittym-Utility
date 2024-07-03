@@ -113,6 +113,160 @@
         }
       }
     },
+    "K:\\source\\JT7SKUTwitchKeskittym-Utility\\src\\JTSKU Twitch Orleans\\SeurantaKontrakti\\SeurantaKontrakti.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "K:\\source\\JT7SKUTwitchKeskittym-Utility\\src\\JTSKU Twitch Orleans\\SeurantaKontrakti\\SeurantaKontrakti.csproj",
+        "projectName": "SeurantaKontrakti",
+        "projectPath": "K:\\source\\JT7SKUTwitchKeskittym-Utility\\src\\JTSKU Twitch Orleans\\SeurantaKontrakti\\SeurantaKontrakti.csproj",
+        "packagesPath": "C:\\Users\\janis\\.nuget\\packages\\",
+        "outputPath": "K:\\source\\JT7SKUTwitchKeskittym-Utility\\src\\JTSKU Twitch Orleans\\SeurantaKontrakti\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Kehitys\\Tools\\VS\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\janis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "K:\\source\\JT7SKUTwitchKeskittym-Utility\\src\\JTSKU Twitch Orleans\\TiliKontrakti\\TiliKontrakti.csproj": {
+                "projectPath": "K:\\source\\JT7SKUTwitchKeskittym-Utility\\src\\JTSKU Twitch Orleans\\TiliKontrakti\\TiliKontrakti.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Orleans.Core.Abstractions": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
+            "Microsoft.Orleans.Sdk": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "K:\\source\\JT7SKUTwitchKeskittym-Utility\\src\\JTSKU Twitch Orleans\\TiliKontrakti\\TiliKontrakti.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "K:\\source\\JT7SKUTwitchKeskittym-Utility\\src\\JTSKU Twitch Orleans\\TiliKontrakti\\TiliKontrakti.csproj",
+        "projectName": "TiliKontrakti",
+        "projectPath": "K:\\source\\JT7SKUTwitchKeskittym-Utility\\src\\JTSKU Twitch Orleans\\TiliKontrakti\\TiliKontrakti.csproj",
+        "packagesPath": "C:\\Users\\janis\\.nuget\\packages\\",
+        "outputPath": "K:\\source\\JT7SKUTwitchKeskittym-Utility\\src\\JTSKU Twitch Orleans\\TiliKontrakti\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Kehitys\\Tools\\VS\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\janis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Orleans.Core.Abstractions": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
+            "Microsoft.Orleans.Sdk": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "K:\\source\\JT7SKUTwitchKeskittym-Utility\\src\\Kontraktit\\Services.Kirjasto.Unit.Twitch.Grains\\Services.Kirjasto.Unit.Twitch.Grains.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -223,6 +377,9 @@
             "projectReferences": {
               "K:\\source\\JT7SKU.Lib.Twitch\\JT7SKU.Lib.Twitch\\JT7SKU.Lib.Twitch.csproj": {
                 "projectPath": "K:\\source\\JT7SKU.Lib.Twitch\\JT7SKU.Lib.Twitch\\JT7SKU.Lib.Twitch.csproj"
+              },
+              "K:\\source\\JT7SKUTwitchKeskittym-Utility\\src\\JTSKU Twitch Orleans\\SeurantaKontrakti\\SeurantaKontrakti.csproj": {
+                "projectPath": "K:\\source\\JT7SKUTwitchKeskittym-Utility\\src\\JTSKU Twitch Orleans\\SeurantaKontrakti\\SeurantaKontrakti.csproj"
               }
             }
           }

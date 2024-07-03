@@ -8,6 +8,12 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.Orleans.Sdk" Version="8.1.0" />
+    <PackageReference Include="Microsoft.Orleans.Runtime" Version="8.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SeurantaKontrakti\SeurantaKontrakti.csproj" />
+    <ProjectReference Include="..\TiliKontrakti\TiliKontrakti.csproj" />
   </ItemGroup>
 
 </Project>

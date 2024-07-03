@@ -1,6 +1,6 @@
 ﻿using Orleans;
 
-namespace TiliKontrakti
+namespace Services.Kontrakti.Unit.Twitch.Tili
 {
     public interface IModerator : IGrainWithStringKey
     {

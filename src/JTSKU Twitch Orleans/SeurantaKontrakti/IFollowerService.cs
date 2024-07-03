@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Services.Kirjasto.Unit.Twitch.Interfaces
+namespace Services.Kontrakti.Unit.Twitch.Seuranta
 {
     public interface IFollowerService : IGrainService
     {

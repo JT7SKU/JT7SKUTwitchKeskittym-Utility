@@ -15,7 +15,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Kontraktit\Services.Kirjasto.Unit.Twitch.Grains\Services.Kirjasto.Unit.Twitch.Grains.csproj" />
+    <ProjectReference Include="..\..\JTSKU Twitch Orleans\BitsitPalvelu\BitsitPalvelu.csproj" />
+    <ProjectReference Include="..\..\JTSKU Twitch Orleans\TippausPalvelu\TippausPalvelu.csproj" />
+    <ProjectReference Include="..\..\JTSKU Twitch Orleans\ToasterKontrakti\ToasterKontrakti.csproj" />
   </ItemGroup>
 
 </Project>

@@ -4,13 +4,12 @@ using System.Collections.Immutable;
 using System.Text;
 using System.Threading.Tasks;
 using Orleans;
-
-namespace Services.Kirjasto.Unit.Twitch.Interfaces
+namespace Services.Kontrakti.Unit.Twitch.Tili
 {
     public interface ITwitchBroadcaster : IGrainWithStringKey
     {
         void NewBroadcast(string message);
-        Task AddFollowerAsync(string username, ITwitchFollower follower);
+        Task AddFollowerAsync(string username, ITwitchFollow follower);
         Task RemoveFollowerAsync(string username);
 
         Task AddSubscriberAsync(string username, ITwitchSubscriber subscriber);

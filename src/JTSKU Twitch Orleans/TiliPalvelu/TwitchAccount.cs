@@ -1,8 +1,7 @@
-﻿using JT7SKU.Lib.Twitch;
-using Microsoft.Extensions.Logging;
+﻿using Microsoft.Extensions.Logging;
 using Orleans;
 using Orleans.Concurrency;
-using Services.Kirjasto.Unit.Twitch.Interfaces;
+using Services.Kontrakti.Unit.Twitch.Tili;
 using System;
 using System.Collections.Generic;
 using System.Collections.Immutable;

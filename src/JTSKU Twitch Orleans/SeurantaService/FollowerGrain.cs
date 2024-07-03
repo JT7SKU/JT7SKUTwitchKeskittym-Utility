@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using JT7SKU.Lib.Twitch;
 using Orleans;
-using Services.Kirjasto.Unit.Twitch.Interfaces;
+using Services.Kontrakti.Unit.Twitch.Seuranta;
+using Services.Kontrakti.Unit.Twitch.Tili;
 
-namespace Services.Kirjasto.Unit.Twitch.Grains
+namespace Services.Kirjasto.Unit.Twitch.Seuranta
 {
-    public class FollowerGrain : Grain, ITwitchFollower
+    public class FollowerGrain : Grain, ITwitchFollow
     {
         private readonly Follower follower;
         private bool IsFollowing = false;
@@ -18,7 +18,7 @@ namespace Services.Kirjasto.Unit.Twitch.Grains
         {
             await Task.CompletedTask;
         }
-        public Task NewFollower(User user,Message message)
+        public Task NewFollower(IUser user,string message)
         {
             follower.User = user;
             IsFollowing = true;

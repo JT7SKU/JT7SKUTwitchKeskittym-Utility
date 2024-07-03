@@ -10,6 +10,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\..\..\JT7SKU.Lib.Twitch\JT7SKU.Lib.Twitch\JT7SKU.Lib.Twitch.csproj" />
+    <ProjectReference Include="..\..\JTSKU Twitch Orleans\SeurantaKontrakti\SeurantaKontrakti.csproj" />
   </ItemGroup>
 
 </Project>

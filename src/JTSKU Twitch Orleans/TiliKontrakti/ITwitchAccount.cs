@@ -3,9 +3,8 @@ using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 using System.Collections.Immutable;
-using JT7SKU.Lib.Twitch;
 
-namespace Services.Kirjasto.Unit.Twitch.Interfaces
+namespace Services.Kontrakti.Unit.Twitch.Tili
 {
    public interface ITwitchAccount : ITwitchPublisher, ITwitchSubscriber
     {

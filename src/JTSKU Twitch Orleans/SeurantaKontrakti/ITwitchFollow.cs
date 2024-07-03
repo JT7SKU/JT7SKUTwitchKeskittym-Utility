@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
-using JT7SKU.Lib.Twitch;
 using Orleans;
+using Services.Kontrakti.Unit.Twitch.Tili;
 
-namespace Services.Kirjasto.Unit.Twitch.Interfaces
+namespace Services.Kontrakti.Unit.Twitch.Seuranta
 {
     public interface ITwitchFollow : IGrainWithStringKey
     {
-        Task NewFollower(User user,Message message);
+        Task NewFollower(IUser user, string message);
     }
 }

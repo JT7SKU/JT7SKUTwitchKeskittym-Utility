@@ -1967,6 +1967,7 @@
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "JT7SKU.StreamService.KirjastoUtility.Twitch": "2.0.0-alpha",
+          "SeurantaKontrakti": "1.0.0",
           "System.Collections.Immutable": "8.0.0"
         },
         "compile": {
@@ -1974,6 +1975,35 @@
         },
         "runtime": {
           "bin/placeholder/Services.Kirjasto.Unit.Twitch.Interfaces.dll": {}
+        }
+      },
+      "SeurantaKontrakti/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.Orleans.Core.Abstractions": "8.1.0",
+          "Microsoft.Orleans.Sdk": "8.1.0",
+          "TiliKontrakti": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SeurantaKontrakti.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SeurantaKontrakti.dll": {}
+        }
+      },
+      "TiliKontrakti/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.Orleans.Core.Abstractions": "8.1.0",
+          "Microsoft.Orleans.Sdk": "8.1.0"
+        },
+        "compile": {
+          "bin/placeholder/TiliKontrakti.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TiliKontrakti.dll": {}
         }
       }
     }
@@ -5106,6 +5136,16 @@
       "type": "project",
       "path": "../../Kontraktit/Services.Kirjasto.Unit.Twitch.Interfaces/Services.Kirjasto.Unit.Twitch.Interfaces.csproj",
       "msbuildProject": "../../Kontraktit/Services.Kirjasto.Unit.Twitch.Interfaces/Services.Kirjasto.Unit.Twitch.Interfaces.csproj"
+    },
+    "SeurantaKontrakti/1.0.0": {
+      "type": "project",
+      "path": "../../JTSKU Twitch Orleans/SeurantaKontrakti/SeurantaKontrakti.csproj",
+      "msbuildProject": "../../JTSKU Twitch Orleans/SeurantaKontrakti/SeurantaKontrakti.csproj"
+    },
+    "TiliKontrakti/1.0.0": {
+      "type": "project",
+      "path": "../../JTSKU Twitch Orleans/TiliKontrakti/TiliKontrakti.csproj",
+      "msbuildProject": "../../JTSKU Twitch Orleans/TiliKontrakti/TiliKontrakti.csproj"
     }
   },
   "projectFileDependencyGroups": {

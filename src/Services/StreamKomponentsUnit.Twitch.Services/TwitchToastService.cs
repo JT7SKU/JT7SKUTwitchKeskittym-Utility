@@ -1,21 +1,24 @@
-﻿using JT7SKU.Lib.Twitch;
+﻿
 using Microsoft.Extensions.Logging;
 using Orleans;
 using Orleans.Concurrency;
 using Orleans.Core;
 using Orleans.Runtime;
-using Services.Kirjasto.Unit.Twitch.Interfaces;
+using Services.Kirjasto.Unit.Twitch.Bitsit;
+using Services.Kirjasto.Unit.Twitch.Grains;
+using Services.Kontrakti.Unit.Twitch.Tili;
+using Services.Kontrakti.Unit.Twitch.Toaster;
 using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 using System.Timers;
 
-namespace Services.Kirjasto.Unit.Twitch.Grains
+namespace Services.Kirjasto.Unit.Twitch.ToastService
 {
     // Service alert channel what broadcast
     [Reentrant]
-    public class TwitchToastService : GrainService, Interfaces.ITwitchToastService , IDisposable
+    public class TwitchToastService : GrainService, ITwitchToastService , IDisposable
     {
         private readonly IGrainFactory GrainFactory;
         private SubscriberGrain subscriberGrain;
@@ -42,7 +45,7 @@ namespace Services.Kirjasto.Unit.Twitch.Grains
         {
             return base.Start();
         }
-        public async Task NewToast(User user,ToastLevel toastLevel,Message message)
+        public async Task NewToast(IUser user,ToastLevel toastLevel,string message)
         {
             switch (toastLevel)
             {
