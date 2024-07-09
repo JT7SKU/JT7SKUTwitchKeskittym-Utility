@@ -4,11 +4,11 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using Orleans;
-using Services.Kontrakti.Unit.Twitch.Bitsit;
+using Services.Kontrakti.Unit.Twitch.Hurraus;
 
-namespace Services.Kirjasto.Unit.Twitch.Bitsit
+namespace Services.Kirjasto.Unit.Twitch.Hurraus
 {
-    public class CheererGrain : Grain, ITwitchCheer
+    public class HurrausGrain : Grain, ITwitchHurraus
     {
         public override async Task OnActivateAsync(CancellationToken cancellationToken)
         {

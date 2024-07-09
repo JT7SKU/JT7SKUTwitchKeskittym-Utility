@@ -3,7 +3,7 @@ internal class Program
     private static void Main(string[] args)
     {
         var builder = DistributedApplication.CreateBuilder(args);
-        var KhatR = builder.AddOrleans("khattiR");
+        var striimiR = builder.AddOrleans("striimiR");
 
         builder.Build().Run();
     }

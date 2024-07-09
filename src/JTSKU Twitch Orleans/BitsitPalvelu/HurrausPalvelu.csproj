@@ -10,7 +10,7 @@
 
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BitsitKontrakti\BitsitKontrakti.csproj" />
+    <ProjectReference Include="..\BitsitKontrakti\HurrausKontrakti.csproj" />
   </ItemGroup>
   
 </Project>

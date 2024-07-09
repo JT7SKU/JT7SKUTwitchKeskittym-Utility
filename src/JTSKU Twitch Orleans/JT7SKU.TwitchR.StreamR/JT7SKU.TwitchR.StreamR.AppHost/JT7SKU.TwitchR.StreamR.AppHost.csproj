@@ -6,16 +6,12 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <IsAspireHost>true</IsAspireHost>
-    <UserSecretsId>e2db9eb6-9f7b-49c3-976e-f0174039fc07</UserSecretsId>
+    <UserSecretsId>8bdd4f26-80be-4fbe-bc56-9dc3a3a08a77</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Aspire.Hosting.AppHost" Version="8.0.2" />
     <PackageReference Include="Aspire.Hosting.Orleans" Version="8.0.2" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\..\JT7SKU TwitchBotsR.Hosting\JT7SKU TwitchBotsR.Hosting.csproj" IsAspireProjectResource="false" />
   </ItemGroup>
 
 </Project>

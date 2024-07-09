@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Services.Kontrakti.Unit.Twitch.Bitsit
+namespace Services.Kontrakti.Unit.Twitch.Hurraus
 {
-    public interface ITwitchCheer
+    public interface ITwitchHurraus
     {
         Task NewCheer(int arvo,string message);
     }

@@ -19,16 +19,16 @@ public static class JT7SKUTwitchBotsRResourceBuilderExtensions
     /// <param name="builder">The <see cref="IDistributedApplicationBuilder"/>.</param>
     /// <param name="name">The name of the resource.</param>
     /// <param name="httpPort">The HTTP port.</param>
-    /// <param name="smtpPort">The SMTP port.</param>
+    /// <param name="wssPort">The WSS port.</param>
     /// <returns>
     /// An <see cref="IResourceBuilder{JT7SKUTwitchBotsRResource}"/> instance that
     /// represents the added JT7SKUTwitchBotsR resource.
     /// </returns>
-    public static IResourceBuilder<JT7SKUTwitchBotsRResource> AddMailDev(
+    public static IResourceBuilder<JT7SKUTwitchBotsRResource> AddBottiR(
         this IDistributedApplicationBuilder builder,
         string name,
         int? httpPort = null,
-        int? smtpPort = null)
+        int? wssPort = null)
     {
         // The AddResource method is a core API within .NET Aspire and is
         // used by resource developers to wrap a custom resource in an
@@ -46,8 +46,8 @@ public static class JT7SKUTwitchBotsRResourceBuilderExtensions
                           name: JT7SKUTwitchBotsRResource.HttpEndpointName)
                       .WithEndpoint(
                           targetPort: 1025,
-                          port: smtpPort,
-                          name: JT7SKUTwitchBotsRResource.SmtpEndpointName);
+                          port: wssPort,
+                          name: JT7SKUTwitchBotsRResource.WssEndpointName);
     }
 }
 

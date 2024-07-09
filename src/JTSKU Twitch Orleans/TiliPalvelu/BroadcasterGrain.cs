@@ -4,9 +4,7 @@ using System.Text;
 using System.Collections.Immutable;
 using System.Threading.Tasks;
 using Orleans;
-using JT7SKU.Lib.Twitch;
 using Orleans.Runtime;
-using JT7SKU.Lib.Twitch.Models;
 using System.Threading;
 using Services.Kontrakti.Unit.Twitch.Tili;
 using Services.Kontrakti.Unit.Twitch.Seuranta;
@@ -32,7 +30,7 @@ namespace Services.Kirjasto.Unit.Twitch.Tili
             _broadcasterProfile.State.UserStatus = UserStatus.Broadcaster;
             await _broadcasterProfile.WriteStateAsync();
         }
-        public Task AddFollowerAsync(string username, ITwitchFollow follower)
+        public Task AddFollowerAsync(string username, IUser follower)
         {
             throw new NotImplementedException();
         }
@@ -62,10 +60,6 @@ namespace Services.Kirjasto.Unit.Twitch.Tili
             throw new NotImplementedException();
         }
 
-        public void NewBroadcast(Message message)
-        {
-            throw new NotImplementedException();
-        }
 
         public Task RemoveFollowerAsync(string username)
         {
@@ -73,6 +67,11 @@ namespace Services.Kirjasto.Unit.Twitch.Tili
         }
 
         public Task RemoveSubscriberAsync(string username)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void NewBroadcast(string message)
         {
             throw new NotImplementedException();
         }

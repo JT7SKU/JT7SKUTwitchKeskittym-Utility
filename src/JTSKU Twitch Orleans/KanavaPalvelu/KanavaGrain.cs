@@ -1,24 +1,26 @@
-﻿using JT7SKU.Lib.Twitch.Models;
-using Microsoft.Extensions.Logging;
+﻿using Microsoft.Extensions.Logging;
 using Orleans;
 using Orleans.Providers;
+using Services.Kontrakti.Unit.Twitch.Kanava;
+using Services.Kontrakti.Unit.Twitch.Seuranta;
+using Services.Kontrakti.Unit.Twitch.Tili;
 using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Services.Kirjasto.Unit.Twitch.Grains
+namespace Services.Kirjasto.Unit.Twitch.Kanva
 {
-    [StorageProvider(ProviderName="Channel")]
-    public class ChannelGrain : Grain<ChannelState> , ITwitchChannel
+    [StorageProvider(ProviderName="Kanava")]
+    public class KanavaGrain : Grain<KanavaState> , ITwitchKanava
     {
-        private Channel Channel;
-        private readonly ILogger<ChannelGrain> logger;
+        private Kanava Kanava;
+        private readonly ILogger<KanavaGrain> logger;
         private readonly HashSet<ITwitchViewer> viewers = new HashSet<ITwitchViewer>();
-        private string GrainType => nameof(ChannelGrain);
+        private string GrainType => nameof(KanavaGrain);
         private string GrainKey => this.GetPrimaryKeyString();
-        public ChannelGrain(ILogger<ChannelGrain> logger)
+        public KanavaGrain(ILogger<KanavaGrain> logger)
         {
             this.logger = logger;
         }
@@ -27,7 +29,7 @@ namespace Services.Kirjasto.Unit.Twitch.Grains
         {
             this.State.IsLive = true;
             this.State.Subscriptions = new Dictionary<string, ITwitchSubscriber>();
-            this.State.Followers = new Dictionary<string, ITwitchFollower>();
+            this.State.Followers = new Dictionary<string, ITwitchFollow>();
             await Task.CompletedTask;
         }
 
@@ -58,11 +60,11 @@ namespace Services.Kirjasto.Unit.Twitch.Grains
         }
         #endregion 
     }
-    public class ChannelState
+    public class KanavaState
     {
         public bool IsLive { get; set; }
 
         public Dictionary<string, ITwitchSubscriber> Subscriptions { get; set; }
-        public Dictionary<string, ITwitchFollower> Followers { get; set; }
+        public Dictionary<string, ITwitchFollow> Followers { get; set; }
     }
 }

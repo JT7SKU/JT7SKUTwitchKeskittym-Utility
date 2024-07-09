@@ -4,7 +4,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Aspire.Hosting.ApplicationModel;
-using JT7SKU.TwitchR.ChatR.Hosting;
 namespace Aspire.Hosting;
 
     public static class JT7SKUTwitchRChatRResourceBuilderExtensions
@@ -16,16 +15,16 @@ namespace Aspire.Hosting;
     /// <param name="builder">The <see cref="IDistributedApplicationBuilder"/>.</param>
     /// <param name="name">The name of the resource.</param>
     /// <param name="httpPort">The HTTP port.</param>
-    /// <param name="smtpPort">The SMTP port.</param>
+    /// <param name="wssPort">The SMTP port.</param>
     /// <returns>
     /// An <see cref="IResourceBuilder{JT7SKUTwitchRChatRResource}"/> instance that
     /// represents the added JT7SKUTwitchBotsR resource.
     /// </returns>
-    public static IResourceBuilder<JT7SKUTwitchRChatRResource> AddChatR(
+    public static IResourceBuilder<JT7SKUTwitchRChatRResource> AddKhattiR(
         this IDistributedApplicationBuilder builder,
         string name,
         int? httpPort = null,
-        int? smtpPort = null)
+        int? wssPort = null)
     {
         // The AddResource method is a core API within .NET Aspire and is
         // used by resource developers to wrap a custom resource in an
@@ -43,8 +42,8 @@ namespace Aspire.Hosting;
                           name: JT7SKUTwitchRChatRResource.HttpEndpointName)
                       .WithEndpoint(
                           targetPort: 1025,
-                          port: smtpPort,
-                          name: JT7SKUTwitchRChatRResource.SmtpEndpointName);
+                          port: wssPort,
+                          name: JT7SKUTwitchRChatRResource.WssEndpointName);
     }
 
 }

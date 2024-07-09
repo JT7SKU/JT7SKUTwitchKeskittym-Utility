@@ -1,11 +1,12 @@
-﻿using Services.Kirjasto.Unit.Twitch.Interfaces;
+﻿
+using Services.Kontrakti.Unit.Twitch.Kanava;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace Services.Kirjasto.Unit.Twitch.Grains
 {
-   public class ChannelStateService : IChannelStateService
+   public class KanavaStateService : IKanavaStateService
     {
     }
 }

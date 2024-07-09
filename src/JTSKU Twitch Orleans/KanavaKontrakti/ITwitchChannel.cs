@@ -3,9 +3,10 @@ using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 using Orleans;
-namespace Services.Kirjasto.Unit.Twitch.Interfaces
+using Services.Kontrakti.Unit.Twitch.Tili;
+namespace Services.Kontrakti.Unit.Twitch.Kanava
 {
-    public interface ITwitchChannel : IGrainWithIntegerKey
+    public interface ITwitchKanava : IGrainWithIntegerKey
     {
         Task SubscribeAsync(ITwitchViewer viewer);
         Task UnSubscribeAsync(ITwitchViewer viewer);

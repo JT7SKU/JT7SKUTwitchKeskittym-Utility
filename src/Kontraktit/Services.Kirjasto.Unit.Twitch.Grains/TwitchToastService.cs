@@ -15,7 +15,7 @@ namespace Services.Kirjasto.Unit.Twitch.Grains
 {
     // Service alert channel what broadcast
     [Reentrant]
-    public class TwitchToastService : GrainService, Interfaces.ITwitchToastService , IDisposable
+    public class TwitchToastService : GrainService, ITwitchToastService , IDisposable
     {
         private readonly IGrainFactory GrainFactory;
         private SubscriberGrain subscriberGrain;

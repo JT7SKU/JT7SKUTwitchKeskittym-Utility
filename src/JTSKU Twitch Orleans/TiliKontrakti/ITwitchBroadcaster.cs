@@ -9,7 +9,7 @@ namespace Services.Kontrakti.Unit.Twitch.Tili
     public interface ITwitchBroadcaster : IGrainWithStringKey
     {
         void NewBroadcast(string message);
-        Task AddFollowerAsync(string username, ITwitchFollow follower);
+        Task AddFollowerAsync(string username, IUser follower);
         Task RemoveFollowerAsync(string username);
 
         Task AddSubscriberAsync(string username, ITwitchSubscriber subscriber);

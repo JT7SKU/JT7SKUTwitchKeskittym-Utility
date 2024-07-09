@@ -1,5 +1,5 @@
 ﻿using Orleans.Runtime;
-using Services.Kirjasto.Unit.Twitch.Interfaces;
+using Services.Kontrakti.Unit.Twitch.Seuranta;
 using System;
 using System.Collections.Generic;
 using System.Text;

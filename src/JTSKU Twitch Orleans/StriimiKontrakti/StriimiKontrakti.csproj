@@ -6,9 +6,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\KanavaKontrakti\KanavaKontrakti.csproj" />
-    <ProjectReference Include="..\SeurantaKontrakti\SeurantaKontrakti.csproj" />
-  </ItemGroup>
-
 </Project>

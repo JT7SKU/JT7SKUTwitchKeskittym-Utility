@@ -1429,30 +1429,6 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "BitsitKontrakti/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "compile": {
-          "bin/placeholder/BitsitKontrakti.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/BitsitKontrakti.dll": {}
-        }
-      },
-      "BitsitPalvelu/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "dependencies": {
-          "BitsitKontrakti": "1.0.0",
-          "Microsoft.Orleans.Sdk": "8.1.0"
-        },
-        "compile": {
-          "bin/placeholder/BitsitPalvelu.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/BitsitPalvelu.dll": {}
-        }
-      },
       "TiliKontrakti/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -3788,16 +3764,6 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "BitsitKontrakti/1.0.0": {
-      "type": "project",
-      "path": "../../JTSKU Twitch Orleans/BitsitKontrakti/BitsitKontrakti.csproj",
-      "msbuildProject": "../../JTSKU Twitch Orleans/BitsitKontrakti/BitsitKontrakti.csproj"
-    },
-    "BitsitPalvelu/1.0.0": {
-      "type": "project",
-      "path": "../../JTSKU Twitch Orleans/BitsitPalvelu/BitsitPalvelu.csproj",
-      "msbuildProject": "../../JTSKU Twitch Orleans/BitsitPalvelu/BitsitPalvelu.csproj"
-    },
     "TiliKontrakti/1.0.0": {
       "type": "project",
       "path": "../../JTSKU Twitch Orleans/TiliKontrakti/TiliKontrakti.csproj",
@@ -3821,7 +3787,6 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "BitsitPalvelu >= 1.0.0",
       "Microsoft.Extensions.Hosting >= 8.0.0",
       "Microsoft.Extensions.Logging >= 8.0.0",
       "Microsoft.Orleans.Runtime >= 8.1.0",
@@ -3865,9 +3830,6 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "K:\\source\\JT7SKUTwitchKeskittym-Utility\\src\\JTSKU Twitch Orleans\\BitsitPalvelu\\BitsitPalvelu.csproj": {
-              "projectPath": "K:\\source\\JT7SKUTwitchKeskittym-Utility\\src\\JTSKU Twitch Orleans\\BitsitPalvelu\\BitsitPalvelu.csproj"
-            },
             "K:\\source\\JT7SKUTwitchKeskittym-Utility\\src\\JTSKU Twitch Orleans\\TippausPalvelu\\TippausPalvelu.csproj": {
               "projectPath": "K:\\source\\JT7SKUTwitchKeskittym-Utility\\src\\JTSKU Twitch Orleans\\TippausPalvelu\\TippausPalvelu.csproj"
             },
