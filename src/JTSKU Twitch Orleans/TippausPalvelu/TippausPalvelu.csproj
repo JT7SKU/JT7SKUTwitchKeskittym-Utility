@@ -6,6 +6,7 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
   <ItemGroup>
+    <PackageReference Include="System.Text.Json" Version="8.0.5" />
     <PackageReference Include="Microsoft.Orleans.Runtime" Version="8.1.0" />
     <PackageReference Include="Microsoft.Orleans.Sdk" Version="8.1.0" />
 

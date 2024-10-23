@@ -7,14 +7,18 @@
 
   <ItemGroup>
     
-    <PackageReference Include="Microsoft.Orleans.SDK" Version="8.1.0" />
-    <PackageReference Include="Microsoft.Orleans.Persistence.AzureStorage" Version="8.1.0" />
-    <PackageReference Include="Microsoft.Orleans.Persistence.DynamoDB" Version="8.1.0" />
-    <PackageReference Include="Microsoft.Orleans.Server" Version="8.1.0" />
+    <PackageReference Include="Microsoft.Extensions.Caching.Memory" Version="8.0.1" />
+    
+    <PackageReference Include="Microsoft.Orleans.SDK" Version="8.2.0" />
+    <PackageReference Include="Microsoft.Orleans.Persistence.AzureStorage" Version="8.2.0" />
+    <PackageReference Include="Microsoft.Orleans.Persistence.DynamoDB" Version="8.2.0" />
+    <PackageReference Include="Microsoft.Orleans.Server" Version="8.2.0" />
     <PackageReference Include="OpenTelemetry.Exporter.OpenTelemetryProtocol" Version="1.9.0" />
     <PackageReference Include="OpenTelemetry.Instrumentation.AspNetCore" Version="1.9.0" />
-    <PackageReference Include="OrchardCore.Application.Cms.Core.Targets" Version="1.8.3" />
-    <PackageReference Include="OpenTelemetry.Extensions.Hosting" Version="1.9.0-rc.1" />
+    <PackageReference Include="OrchardCore.Application.Cms.Core.Targets" Version="2.0.2" />
+    <PackageReference Include="OpenTelemetry.Extensions.Hosting" Version="1.9.0" />
+    <PackageReference Include="System.Text.Json" Version="8.0.5" />
+    <PackageReference Include="System.IO.Packaging" Version="8.0.1" />
   </ItemGroup>
 
 

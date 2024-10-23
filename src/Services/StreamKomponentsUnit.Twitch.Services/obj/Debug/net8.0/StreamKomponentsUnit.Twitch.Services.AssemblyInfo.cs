@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StreamKomponentsUnit.Twitch.Services")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e0c1a44897a4fc6e814426636910cf3445598b4b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+48066b13e75ed29bbe5c64cfab656bfe9ef1977c")]
 [assembly: System.Reflection.AssemblyProductAttribute("StreamKomponentsUnit.Twitch.Services")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StreamKomponentsUnit.Twitch.Services")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
