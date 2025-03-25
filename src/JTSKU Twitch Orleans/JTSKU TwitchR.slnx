@@ -1,0 +1,195 @@
+<Solution>
+  <Configurations>
+    <Platform Name="Any CPU" />
+    <Platform Name="ARM" />
+    <Platform Name="ARM64" />
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Folder Name="/APIs/" />
+  <Folder Name="/APIs/Kommon/" Id="a57ec38c-bc0a-d66b-0398-8fad7b61717d">
+    <Project Path="../APIs/Services.Kohdistuma.Unit.Twitch.OData/Services.Kohdistuma.Unit.Twitch.OData.csproj" />
+  </Folder>
+  <Folder Name="/APIs/Kommon/Analytiikka/" Id="5baae22e-014e-d982-4606-1f89ea96c22b" />
+  <Folder Name="/APIs/Kommon/Kanava/" Id="6ed6e341-095e-6b24-ff1b-5d9a53b502c9" />
+  <Folder Name="/APIs/Kommon/Mainokset/" Id="92e597d9-3e43-b22b-1bfe-3821993c8702" />
+  <Folder Name="/APIs/TwitchR/" Id="b992aae7-bdb2-4269-ee05-6bd0ee7d8850">
+    <Project Path="../APIs/Twitch Api/JT7SKU.TwitchR.API.csproj" />
+  </Folder>
+  <Folder Name="/Aspire/" />
+  <Folder Name="/Aspire/Keskustelu ja Botit/" Id="fd0ea2de-97b3-673d-5d1e-460e61dd6bf1" />
+  <Folder Name="/Aspire/Keskustelu ja Botit/BotR/" Id="967a85d5-7b71-d348-1484-a2843a44fdfc">
+    <Project Path="JT7SKU.TwitchBotsR/JT7SKU.TwitchBotsR.AppHost/JT7SKU.TwitchBotsR.AppHost.csproj" />
+    <Project Path="JT7SKU.TwitchBotsR/JT7SKU.TwitchBotsR.ServiceDefaults/JT7SKU.TwitchBotsR.ServiceDefaults.csproj" />
+  </Folder>
+  <Folder Name="/Aspire/Keskustelu ja Botit/ChatR/" Id="2102d0c9-3f69-aeb2-65d1-2fc675d3750c">
+    <Project Path="JT7SKU.TwitchChatR/JT7SKU.TwitchChatR.AppHost/JT7SKU.TwitchChatR.AppHost.csproj" />
+    <Project Path="JT7SKU.TwitchChatR/JT7SKU.TwitchChatR.ServiceDefaults/JT7SKU.TwitchChatR.ServiceDefaults.csproj" />
+  </Folder>
+  <Folder Name="/Aspire/StreamR/" Id="c96e4fc3-36e5-c167-2044-d317b0b979fb">
+    <Project Path="JT7SKU.TwitchR.StreamR/JT7SKU.TwitchR.StreamR.AppHost/JT7SKU.TwitchR.StreamR.AppHost.csproj" />
+    <Project Path="JT7SKU.TwitchR.StreamR/JT7SKU.TwitchR.StreamR.ServiceDefaults/JT7SKU.TwitchR.StreamR.ServiceDefaults.csproj" />
+  </Folder>
+  <Folder Name="/Aspire/TwitchR/" Id="5aa01b37-b404-7624-53a0-064ce6b5c20d">
+    <Project Path="JTSKU Twitch Orleans.AppHost/JTSKU TwitchR.AppHost.csproj" />
+    <Project Path="JTSKU Twitch Orleans.ServiceDefaults/JTSKU TwitchR.ServiceDefaults.csproj" />
+  </Folder>
+  <Folder Name="/Kirjasto/">
+    <Project Path="JT7SKU TwitchR.Infra/JT7SKU TwitchR.Infra.csproj" Id="86429b8d-f039-4ed4-a43e-bea27828b698" />
+    <Project Path="JTSKU TwitchR.Abstractions/JTSKU TwitchR.Abstractions.csproj" Id="5d395cca-981c-4434-b296-c5f49fbf88f9" />
+    <Project Path="Shared/Shared.csproj" />
+  </Folder>
+  <Folder Name="/Kirjasto/HostingResources/" Id="060ca210-c6cb-d474-97a6-95e38e1a090f">
+    <Project Path="JT7SKU TwitchBotsR.Hosting/JT7SKU TwitchBotsR.Hosting.csproj" />
+    <Project Path="JT7SKU.TwitchR.ChatR.Hosting/JT7SKU.TwitchR.ChatR.Hosting.csproj" />
+  </Folder>
+  <Folder Name="/Klients/" />
+  <Folder Name="/Klients/TwitchR/" Id="2854f858-7e1a-24c2-74e3-16476318b35d">
+    <Project Path="../Klients/StreamKlientUnit.Twitch/StreamKlientUnit.Twitch.TwitchR.Web.csproj" />
+    <Project Path="../Klients/StreamKlientUnit.TwitchUWP/StreamKlientUnit.Twitch.TwitchR.Windows.csproj" Id="74ae000f-7221-4156-8bab-406550573fd3">
+      <Platform Solution="*|Any CPU" Project="x64" />
+      <Platform Solution="*|ARM" Project="ARM" />
+      <Platform Solution="*|ARM64" Project="ARM64" />
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
+      <Deploy />
+    </Project>
+  </Folder>
+  <Folder Name="/Kontracts/" />
+  <Folder Name="/Kontracts/Authentikointi/" Id="de873a20-dfc6-87c8-31a3-9a58c2a28a6c" />
+  <Folder Name="/Kontracts/Keskustelu ja Botit/" Id="7effeb24-753d-fc63-eb25-f2d4bd928934" />
+  <Folder Name="/Kontracts/Keskustelu ja Botit/Botit/" Id="ae28c690-7869-9795-8f9e-5fca22ef1ffd">
+    <Project Path="BottiKontrakti/BottiKontrakti.csproj" />
+  </Folder>
+  <Folder Name="/Kontracts/Keskustelu ja Botit/Keskustelu/" Id="e678962d-522f-63a6-4bae-d0dc1454f0c0">
+    <Project Path="KeskustelijatKontrakti/KeskustelijatKontrakti.csproj" />
+    <Project Path="KeskusteluIlmoitusKontrakti/KeskusteluIlmoitusKontrakti.csproj" />
+    <Project Path="KeskusteluViestiKontrakti/KeskusteluViestiKontrakti.csproj" />
+  </Folder>
+  <Folder Name="/Kontracts/Keskustelu ja Botit/Keskustelu/Huuda/" Id="d4a59b4f-cce5-66b4-cd8e-09b87775243b">
+    <Project Path="HuudaKontrakti/HuudaKontrakti.csproj" />
+  </Folder>
+  <Folder Name="/Kontracts/Keskustelu ja Botit/Keskustelu/Hymiot ja Merkki/" Id="60535338-1b8e-fcce-2ad4-c255f5e7fcab">
+    <Project Path="EmojiPakkaKontrakti/EmojiPakkaKontrakti.csproj" />
+    <Project Path="GlobaaliEmojiKontrakti/GlobaaliEmojiKontrakti.csproj" />
+    <Project Path="KanavaEmojiKontrakti/KanavaEmojiKontrakti.csproj" />
+    <Project Path="KanavanKeskusteluMerkkiKontrakti/KanavanKeskusteluMerkkiKontrakti.csproj" />
+    <Project Path="KayttajaEmojiKontrakti/KayttajaEmojiKontrakti.csproj" />
+  </Folder>
+  <Folder Name="/Kontracts/Keskustelu ja Botit/Keskustelu/KeskusteluAsetukset/" Id="dc914fac-e8d0-1af5-7acd-69f02a4a6d25">
+    <Project Path="KanavaAsetuksetKontrakti/KanavaAsetuksetKontrakti.csproj" />
+    <Project Path="KayttajaKeskusteluAsetuksetKontrakti/KayttajaKeskusteluAsetuksetKontrakti.csproj" />
+    <Project Path="KeskusteluKayttajanVariKontrakti/KeskusteluKayttajanVariKontrakti.csproj" />
+  </Folder>
+  <Folder Name="/Kontracts/Kommon/" Id="c58f5f6a-92ae-a827-70e7-ab3fd1ec66cc">
+    <Project Path="../Kontraktit/Services.Kirjasto.Unit.Twitch.Grains/Services.Kirjasto.Unit.Twitch.Grains.csproj" />
+    <Project Path="../Kontraktit/Services.Kirjasto.Unit.Twitch.Interfaces/Services.Kirjasto.Unit.Twitch.Interfaces.csproj" />
+    <Project Path="ToasterKontrakti/ToasterKontrakti.csproj" />
+  </Folder>
+  <Folder Name="/Kontracts/Kommon/Haku/" Id="a56d7313-9468-9bf5-d5e7-7d9010072bcb">
+    <Project Path="HakuKontrakti/HakuKontrakti.csproj" />
+  </Folder>
+  <Folder Name="/Kontracts/Kommon/Interactiivinen/" Id="7ec60142-7c07-e195-a849-2f072a904e6f" />
+  <Folder Name="/Kontracts/Kommon/Interactiivinen/Ennustaminen/" Id="5edbaca8-8e52-d99d-475b-0a782c033865">
+    <Project Path="EnnustusKontrakti/EnnustusKontrakti.csproj" />
+  </Folder>
+  <Folder Name="/Kontracts/Kommon/Interactiivinen/Kysely/" Id="bdc14876-bc2a-a393-8e2b-3234c9a8c8fb">
+    <Project Path="KyselyKontrakti/KyselyKontrakti.csproj" />
+  </Folder>
+  <Folder Name="/Kontracts/Kommon/Kanava/" Id="c910d6db-434d-503e-b71f-044421214e80">
+    <Project Path="KanavaKontrakti/KanavaKontrakti.csproj" />
+    <Project Path="SeurantaKontrakti/SeurantaKontrakti.csproj" />
+  </Folder>
+  <Folder Name="/Kontracts/Kommon/Kanava/Aikataulu/" Id="46b52358-73d8-1147-9d14-4126174cb9d1">
+    <Project Path="KanavaKalenteriKontrakti/KanavaKalenteriKontrakti.csproj" />
+    <Project Path="KanavaStriimiAikatauluKontrakti/KanavaStriimiAikatauluKontrakti.csproj" />
+  </Folder>
+  <Folder Name="/Kontracts/Kommon/Kanava/Analytiikka/" Id="ad2dc786-6ae4-2f79-66fd-ece7860a027b">
+    <Project Path="LaajennusAnalytiikkaKontrakti/LaajennusAnalytiikkaKontrakti.csproj" />
+    <Project Path="PeliAnalytiikkaKontrakti/PeliAnalytiikkaKontrakti.csproj" />
+  </Folder>
+  <Folder Name="/Kontracts/Kommon/Kanava/Hypetys/" Id="134106c8-3cd9-7a57-26a5-f8d13d64f32e" />
+  <Folder Name="/Kontracts/Kommon/Kanava/Hypetys/Hypetrain/" Id="b430b0a3-c39d-3c3c-8dd7-05450d837309">
+    <Project Path="HypeJunaKontrakti/HypeJunaKontrakti.csproj" />
+  </Folder>
+  <Folder Name="/Kontracts/Kommon/Kanava/Kanava Pisteet/" Id="e3319d28-238b-c31d-d7d9-2bad01d96936">
+    <Project Path="KanavaPisteKontrakti/KanavaPisteKontrakti.csproj" />
+  </Folder>
+  <Folder Name="/Kontracts/Kommon/Kanava/Raidit/" Id="0604fdd6-f554-0da4-f6c1-1135f3530a0b">
+    <Project Path="RaidiKontrakti/RaidiKontrakti.csproj" />
+  </Folder>
+  <Folder Name="/Kontracts/Kommon/Kanava/Tavoitteet/" Id="08c0d912-3db5-e844-8c28-3f14242d65a5">
+    <Project Path="TavoiteKontrakti/TavoiteKontrakti.csproj" />
+  </Folder>
+  <Folder Name="/Kontracts/Kommon/Kanava/VierasStar/" Id="56b2e0bc-50a4-b333-8c76-27dbf345fb23">
+    <Project Path="VierasStarKontrakti/VierasStarKontrakti.csproj" />
+  </Folder>
+  <Folder Name="/Kontracts/Kommon/Kayttaja ja Tiimit/" Id="98f104f1-738a-6272-f753-00598e45ff99">
+    <Project Path="TiliKontrakti/TiliKontrakti.csproj" />
+  </Folder>
+  <Folder Name="/Kontracts/Kommon/Kayttaja ja Tiimit/Kayttaja/" Id="a3673797-f544-38dd-1134-3b143eddaf95">
+    <Project Path="KayttajaBlokkausKontrakti/KayttajaBlokkausKontrakti.csproj" />
+    <Project Path="KayttajaLaajennusKontrakti/KayttajaLaajennusKontrakti.csproj" />
+  </Folder>
+  <Folder Name="/Kontracts/Kommon/Kayttaja ja Tiimit/Tiimit/" Id="99e0b825-682d-c3ec-103e-3e0b57553039">
+    <Project Path="TiimiKontrakti/TiimiKontrakti.csproj" />
+  </Folder>
+  <Folder Name="/Kontracts/Kommon/Kuiskaukset/" Id="7dd6a96c-6db0-6040-8eb4-6ff16126e8a4">
+    <Project Path="KuiskausKontrakti/KuiskausKontrakti.csproj" />
+  </Folder>
+  <Folder Name="/Kontracts/Kommon/Mainokset/" Id="a86989c6-9b25-ee10-a587-c3e20edb4328">
+    <Project Path="MainostaukoKontrakti/MainostaukoKontrakti.csproj" />
+  </Folder>
+  <Folder Name="/Kontracts/Kommon/Media/" Id="5bb6597f-1f93-a548-bdd7-621707240db5" />
+  <Folder Name="/Kontracts/Kommon/Media/Klipit/" Id="0beb1c34-63fe-0470-5fef-ca678855af83">
+    <Project Path="KlippiKontrakti/KlippiKontrakti.csproj" />
+  </Folder>
+  <Folder Name="/Kontracts/Kommon/Media/Videot/" Id="e9a66cea-08cf-c9e5-e1d6-fd2900f5efa3">
+    <Project Path="VideoKontrakti/VideoKontrakti.csproj" />
+  </Folder>
+  <Folder Name="/Kontracts/Kommon/Pelit/" Id="2dcf7969-4aa0-81aa-af85-a9b01085f26e">
+    <Project Path="PeliKontrakti/PeliKontrakti.csproj" />
+  </Folder>
+  <Folder Name="/Kontracts/Kommon/Raha/" Id="a4c36aae-dfd4-e5b8-dd01-3068bd61d642">
+    <Project Path="TippiKontrakti/TippiKontrakti.csproj" />
+  </Folder>
+  <Folder Name="/Kontracts/Kommon/Raha/Hurraukset/" Id="b857c23d-37cd-34d1-f777-722e6b545089">
+    <Project Path="BitsitKontrakti/HurrausKontrakti.csproj" />
+  </Folder>
+  <Folder Name="/Kontracts/Kommon/Raha/Kerays/" Id="8a05c102-3c64-494d-80d6-8efb6444e577">
+    <Project Path="KeraysKontrakti/KeraysKontrakti.csproj" />
+  </Folder>
+  <Folder Name="/Kontracts/Kommon/Tagit/" Id="11c72d43-6a22-5f3c-028a-1f8de9fbe4ee">
+    <Project Path="TagiKontrakti/TagiKontrakti.csproj" />
+  </Folder>
+  <Folder Name="/Kontracts/Kommon/Tilaukset/" Id="c4571790-6b4c-c952-c15d-751cd88c6c66">
+    <Project Path="TilausKontrakti/TilausKontrakti.csproj" />
+  </Folder>
+  <Folder Name="/Kontracts/Laajennukset/" Id="65194a2b-cbfd-d8d6-8aae-999f42954bce" />
+  <Folder Name="/Kontracts/Laajennukset/Dropit/" Id="5010c506-d581-69e9-ba10-d920e1c3ba24" />
+  <Folder Name="/Kontracts/Laajennukset/Extensions/" Id="2e857901-6da0-2d9c-cd50-4829ffed86ed" />
+  <Folder Name="/Kontracts/Massa Toistin/" Id="336f7c64-b151-8232-0e25-52cd8f873325" />
+  <Folder Name="/Kontracts/Massa Toistin/Konduiitti/" Id="c09e372c-410a-d4f2-837f-bc3d92fdb6b9" />
+  <Folder Name="/Kontracts/Massa Toistin/TapahtumaSubi/" Id="2a9c0c56-97f6-7327-dafd-980d048b369c" />
+  <Folder Name="/Kontracts/Sisalto ja Yllapito/" Id="40c067ba-abe5-7331-e800-24aa97774544" />
+  <Folder Name="/Kontracts/Sisalto ja Yllapito/Automoderaaus/" Id="640a6619-8311-7d1b-48ca-ad88fe24e296" />
+  <Folder Name="/Kontracts/Sisalto ja Yllapito/Moderaatio/" Id="ec602e60-2298-0a2d-07db-c3be74e64ad7" />
+  <Folder Name="/Kontracts/StreamR/" Id="0efb395b-f446-a426-0337-9aab88a0888e">
+    <Project Path="StriimiKontrakti/StriimiKontrakti.csproj" />
+    <Project Path="StriimiProviderKontrakti/StriimiProviderKontrakti.csproj" />
+  </Folder>
+  <Folder Name="/Services/" />
+  <Folder Name="/Services/Kommon/" Id="c2d4576c-99a0-4ed0-1eb9-91858b0c4cf5">
+    <Project Path="../Services/StreamKomponentsUnit.Twitch.Services/StreamKomponentsUnit.Twitch.Services.csproj" />
+    <Project Path="BitsitPalvelu/HurrausPalvelu.csproj" />
+    <Project Path="KanavaPalvelu/KanavaPalvelu.csproj" />
+    <Project Path="SeurantaService/SeurantaService.csproj" />
+    <Project Path="TiliPalvelu/TiliPalvelu.csproj" />
+    <Project Path="TippausPalvelu/TippausPalvelu.csproj" />
+  </Folder>
+  <Folder Name="/Testit/" />
+  <Folder Name="/Workers/" />
+  <Folder Name="/Workers/Kommon/" Id="6054a46d-6612-0712-e168-5b5b77b19ecc">
+    <Project Path="../Workers/FollowerServiceWorker/FollowServiceWorker.csproj" />
+  </Folder>
+</Solution>
