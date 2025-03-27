@@ -3,13 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.Extensions.Hosting;
 using Orleans.Configuration;
 
 namespace JT7SKU_TwitchR.Infra
 {
     public static class OrleansApplicationBuilderExtensions
     {
-        public static WebApplicationBuilder AsOrleansSilo(this WebApplicationBuilder builder, Action<ISiloBuilder>? siloBuilderKallBack = null)
+        public static HostBuilder AsOrleansSilo(this HostBuilder builder, Action<ISiloBuilder>? siloBuilderKallBack = null)
         {
             builder.UseOrleans(silo =>
             {
@@ -23,14 +24,15 @@ namespace JT7SKU_TwitchR.Infra
                     siloBuilderKallBack(silo);
                 }
             });
+            return builder;
         }
-        public static WebApplicationBuilder AsOrleansAsiaskas(this WebApplicationBuilder builder)
+        public static HostBuilder AsOrleansAsiaskas(this HostBuilder builder)
         {
-            buildr.UseOrleansClient(asiakas =>
+            builder.UseOrleansClient(asiakas =>
             {
                 asiakas.Configure<GatewayOptions>(o =>
                 {
-                    o.GatewayListRefreshedPeriod = TimeSpan.FromSeconds(30);
+                    o.GatewayListRefreshPeriod = TimeSpan.FromSeconds(30);
                 });
             });
             return builder;
