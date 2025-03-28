@@ -14,7 +14,15 @@
   <ItemGroup>
     <PackageReference Include="Aspire.Hosting.AppHost" Version="9.1.0" />
     <PackageReference Include="Aspire.Hosting.Orleans" Version="9.1.0" />
+    <PackageReference Include="Aspire.Hosting.Redis" Version="9.1.0" />
+    <PackageReference Include="Microsoft.Extensions.Caching.Hybrid" Version="9.3.0" />
     <PackageReference Include="System.Text.Json" Version="9.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TwitchR.SIlo.BroadcasterSilo\TwitchR.SIlo.BroadcasterSilo.csproj" />
+    <ProjectReference Include="..\TwitchR.Silo.ModerationSilo\TwitchR.Silo.ModerationSilo.csproj" />
+    <ProjectReference Include="..\TwitchR.UserSilo\TwitchR.UserSilo.csproj" />
   </ItemGroup>
 
 </Project>

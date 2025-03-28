@@ -1,0 +1,6 @@
+@TwitchR.SIlo.BroadcasterSilo_HostAddress = http://localhost:5041
+
+GET {{TwitchR.SIlo.BroadcasterSilo_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

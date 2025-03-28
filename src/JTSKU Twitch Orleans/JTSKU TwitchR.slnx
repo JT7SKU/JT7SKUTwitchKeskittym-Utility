@@ -187,6 +187,13 @@
     <Project Path="TiliPalvelu/TiliPalvelu.csproj" />
     <Project Path="TippausPalvelu/TippausPalvelu.csproj" />
   </Folder>
+  <Folder Name="/Silos/" Id="02ea681e-c7d8-13c7-8484-4ac65e1b71e8">
+    <Project Path="TwitchR.KanavaSilo/TwitchR.KanavaSilo.csproj" />
+    <Project Path="TwitchR.Silo.BotSilo/TwitchR.Silo.BotSilo.csproj" />
+    <Project Path="TwitchR.SIlo.BroadcasterSilo/TwitchR.SIlo.BroadcasterSilo.csproj" />
+    <Project Path="TwitchR.Silo.ModerationSilo/TwitchR.Silo.ModerationSilo.csproj" />
+    <Project Path="TwitchR.UserSilo/TwitchR.UserSilo.csproj" />
+  </Folder>
   <Folder Name="/Testit/" />
   <Folder Name="/Workers/" />
   <Folder Name="/Workers/Kommon/" Id="6054a46d-6612-0712-e168-5b5b77b19ecc">

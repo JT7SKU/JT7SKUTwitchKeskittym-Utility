@@ -18,6 +18,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\JT7SKU TwitchBotsR.Hosting\JT7SKU TwitchBotsR.Hosting.csproj" IsAspireProjectResource="false" />
+    <ProjectReference Include="..\..\TwitchR.KanavaSilo\TwitchR.KanavaSilo.csproj" />
+    <ProjectReference Include="..\..\TwitchR.Silo.BotSilo\TwitchR.Silo.BotSilo.csproj" />
   </ItemGroup>
 
 </Project>

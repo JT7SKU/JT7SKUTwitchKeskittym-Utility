@@ -6,14 +6,22 @@ using System.Threading.Tasks;
 using Microsoft.Extensions.Hosting;
 using Orleans.Configuration;
 
-namespace JT7SKU_TwitchR.Infra
+namespace Microsoft.AspNetCore.Builder
 {
-    public static class OrleansApplicationBuilderExtensions
+    public static class OrleansWebApplicationBuilderExtensions
     {
-        public static HostBuilder AsOrleansSilo(this HostBuilder builder, Action<ISiloBuilder>? siloBuilderKallBack = null)
+        public static WebApplicationBuilder AsOrleansSilo(this WebApplicationBuilder builder, Action<ISiloBuilder>? siloBuilderKallBack = null)
         {
+            
             builder.UseOrleans(silo =>
             {
+                silo.UseRedisClustering(opt =>
+                {
+                    
+                    //opt.ConfigurationOptions. = "host:port";
+                    opt.ConfigurationOptions.DefaultDatabase = 0;
+                });
+                silo.AddRedisGrainStorageAsDefault();
                 silo.Configure<ClusterMembershipOptions>(o =>
                 {
                     o.IAmAliveTablePublishTimeout = TimeSpan.FromSeconds(30);
@@ -26,10 +34,14 @@ namespace JT7SKU_TwitchR.Infra
             });
             return builder;
         }
-        public static HostBuilder AsOrleansAsiaskas(this HostBuilder builder)
+        public static WebApplicationBuilder AsOrleansAsiaskas(this WebApplicationBuilder builder)
         {
             builder.UseOrleansClient(asiakas =>
             {
+                asiakas.UseRedisClustering(opt => {
+                    //opt.ConnectionString = "host:port";
+                    opt.ConfigurationOptions.DefaultDatabase = 0;
+                });
                 asiakas.Configure<GatewayOptions>(o =>
                 {
                     o.GatewayListRefreshPeriod = TimeSpan.FromSeconds(30);

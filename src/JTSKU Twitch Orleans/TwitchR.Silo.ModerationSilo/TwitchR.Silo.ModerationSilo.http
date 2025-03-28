@@ -1,0 +1,6 @@
+@TwitchR.Silo.ModerationSilo_HostAddress = http://localhost:5129
+
+GET {{TwitchR.Silo.ModerationSilo_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

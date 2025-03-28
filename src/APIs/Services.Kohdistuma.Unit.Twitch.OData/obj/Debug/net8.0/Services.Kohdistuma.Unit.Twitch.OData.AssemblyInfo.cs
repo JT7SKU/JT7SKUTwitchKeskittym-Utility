@@ -102,7 +102,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Services.Kohdistuma.Unit.Twitch.OData")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1499e80791e7cd84afc47a4068ceef13268d0d82")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+22e6e2ec0d56aeb913136f7fa83e323a8e9d476d")]
 [assembly: System.Reflection.AssemblyProductAttribute("Services.Kohdistuma.Unit.Twitch.OData")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Services.Kohdistuma.Unit.Twitch.OData")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
