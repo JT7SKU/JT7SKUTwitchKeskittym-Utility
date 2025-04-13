@@ -131,7 +131,7 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net8.0"
+          "net9.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -140,8 +140,8 @@
           "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet9/nuget/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
+          "net9.0": {
+            "targetAlias": "net9.0",
             "projectReferences": {
               "K:\\source\\JT7SKUTwitchKeskittym-Utility\\src\\JTSKU Twitch Orleans\\TiliKontrakti\\TiliKontrakti.csproj": {
                 "projectPath": "K:\\source\\JT7SKUTwitchKeskittym-Utility\\src\\JTSKU Twitch Orleans\\TiliKontrakti\\TiliKontrakti.csproj"
@@ -162,16 +162,16 @@
         "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net9.0": {
+          "targetAlias": "net9.0",
           "dependencies": {
             "Microsoft.Orleans.Core.Abstractions": {
               "target": "Package",
-              "version": "[8.1.0, )"
+              "version": "[9.1.2, )"
             },
             "Microsoft.Orleans.Sdk": {
               "target": "Package",
-              "version": "[8.1.0, )"
+              "version": "[9.1.2, )"
             }
           },
           "imports": [
@@ -212,7 +212,7 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net8.0"
+          "net9.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -221,8 +221,8 @@
           "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet9/nuget/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
+          "net9.0": {
+            "targetAlias": "net9.0",
             "projectReferences": {}
           }
         },
@@ -239,16 +239,16 @@
         "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net9.0": {
+          "targetAlias": "net9.0",
           "dependencies": {
             "Microsoft.Orleans.Core.Abstractions": {
               "target": "Package",
-              "version": "[8.1.0, )"
+              "version": "[9.1.2, )"
             },
             "Microsoft.Orleans.Sdk": {
               "target": "Package",
-              "version": "[8.1.0, )"
+              "version": "[9.1.2, )"
             }
           },
           "imports": [
@@ -289,7 +289,7 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net8.0"
+          "net9.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -298,8 +298,8 @@
           "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet9/nuget/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
+          "net9.0": {
+            "targetAlias": "net9.0",
             "projectReferences": {
               "K:\\source\\JT7SKU.Lib.Twitch\\JT7SKU.Lib.Twitch\\JT7SKU.Lib.Twitch.csproj": {
                 "projectPath": "K:\\source\\JT7SKU.Lib.Twitch\\JT7SKU.Lib.Twitch\\JT7SKU.Lib.Twitch.csproj"
@@ -323,12 +323,16 @@
         "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net9.0": {
+          "targetAlias": "net9.0",
           "dependencies": {
+            "Microsoft.Extensions.Caching.Memory": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
             "System.Collections.Immutable": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[9.0.4, )"
             }
           },
           "imports": [

@@ -1043,43 +1043,6 @@
           }
         }
       },
-      "Microsoft.Orleans.OrleansProviders/2.0.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Orleans.Core": "2.0.0",
-          "Microsoft.Orleans.Core.Abstractions": "2.0.0",
-          "Microsoft.Orleans.Runtime.Abstractions": "2.0.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/OrleansProviders.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/OrleansProviders.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Microsoft.Orleans.OrleansRuntime/2.0.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.Options": "2.0.0",
-          "Microsoft.Orleans.Core": "2.0.0",
-          "Microsoft.Orleans.Core.Abstractions": "2.0.0",
-          "Microsoft.Orleans.Runtime.Abstractions": "2.0.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/Orleans.Runtime.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/Orleans.Runtime.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "Microsoft.Orleans.Persistence.AzureStorage/9.1.2": {
         "type": "package",
         "dependencies": {
@@ -1170,6 +1133,49 @@
           }
         }
       },
+      "Microsoft.Orleans.Persistence.Memory/9.1.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Connections.Abstractions": "8.0.11",
+          "Microsoft.CodeAnalysis.Analyzers": "3.11.0",
+          "Microsoft.CodeAnalysis.Common": "4.5.0",
+          "Microsoft.CodeAnalysis.Workspaces.Common": "4.5.0",
+          "Microsoft.Extensions.Configuration": "8.0.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Configuration.Binder": "8.0.2",
+          "Microsoft.Extensions.Configuration.Json": "8.0.1",
+          "Microsoft.Extensions.DependencyInjection": "8.0.1",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.2",
+          "Microsoft.Extensions.DependencyModel": "8.0.2",
+          "Microsoft.Extensions.Hosting": "8.0.1",
+          "Microsoft.Extensions.Hosting.Abstractions": "8.0.1",
+          "Microsoft.Extensions.Logging": "8.0.1",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.2",
+          "Microsoft.Extensions.Logging.Console": "8.0.1",
+          "Microsoft.Extensions.Logging.Debug": "8.0.1",
+          "Microsoft.Extensions.ObjectPool": "8.0.11",
+          "Microsoft.Extensions.Options": "8.0.2",
+          "Microsoft.Extensions.Options.ConfigurationExtensions": "8.0.0",
+          "Microsoft.Orleans.Analyzers": "9.1.2",
+          "Microsoft.Orleans.CodeGenerator": "9.1.2",
+          "Microsoft.Orleans.Runtime": "9.1.2",
+          "Newtonsoft.Json": "13.0.3",
+          "System.Collections.Immutable": "8.0.0",
+          "System.IO.Hashing": "8.0.0",
+          "System.IO.Pipelines": "8.0.0",
+          "System.Memory.Data": "8.0.1"
+        },
+        "compile": {
+          "lib/net8.0/Orleans.Persistence.Memory.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Orleans.Persistence.Memory.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Orleans.Runtime/9.1.2": {
         "type": "package",
         "dependencies": {
@@ -1209,23 +1215,6 @@
         },
         "runtime": {
           "lib/net8.0/Orleans.Runtime.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Microsoft.Orleans.Runtime.Abstractions/2.0.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.Options": "2.0.0",
-          "Microsoft.Orleans.Core": "2.0.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/Orleans.Runtime.Abstractions.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/Orleans.Runtime.Abstractions.dll": {
             "related": ".xml"
           }
         }
@@ -1313,13 +1302,37 @@
           }
         }
       },
-      "Microsoft.Orleans.Server/2.0.0": {
+      "Microsoft.Orleans.Server/9.1.2": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Orleans.Core": "2.0.0",
-          "Microsoft.Orleans.Core.Abstractions": "2.0.0",
-          "Microsoft.Orleans.OrleansProviders": "2.0.0",
-          "Microsoft.Orleans.OrleansRuntime": "2.0.0"
+          "Microsoft.AspNetCore.Connections.Abstractions": "8.0.11",
+          "Microsoft.CodeAnalysis.Analyzers": "3.11.0",
+          "Microsoft.CodeAnalysis.Common": "4.5.0",
+          "Microsoft.CodeAnalysis.Workspaces.Common": "4.5.0",
+          "Microsoft.Extensions.Configuration": "8.0.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Configuration.Binder": "8.0.2",
+          "Microsoft.Extensions.Configuration.Json": "8.0.1",
+          "Microsoft.Extensions.DependencyInjection": "8.0.1",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.2",
+          "Microsoft.Extensions.DependencyModel": "8.0.2",
+          "Microsoft.Extensions.Hosting": "8.0.1",
+          "Microsoft.Extensions.Hosting.Abstractions": "8.0.1",
+          "Microsoft.Extensions.Logging": "8.0.1",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.2",
+          "Microsoft.Extensions.Logging.Console": "8.0.1",
+          "Microsoft.Extensions.Logging.Debug": "8.0.1",
+          "Microsoft.Extensions.ObjectPool": "8.0.11",
+          "Microsoft.Extensions.Options": "8.0.2",
+          "Microsoft.Extensions.Options.ConfigurationExtensions": "8.0.0",
+          "Microsoft.Orleans.Persistence.Memory": "9.1.2",
+          "Microsoft.Orleans.Runtime": "9.1.2",
+          "Microsoft.Orleans.Sdk": "9.1.2",
+          "Newtonsoft.Json": "13.0.3",
+          "System.Collections.Immutable": "8.0.0",
+          "System.IO.Hashing": "8.0.0",
+          "System.IO.Pipelines": "8.0.0",
+          "System.Memory.Data": "8.0.1"
         }
       },
       "Microsoft.Win32.Primitives/4.3.0": {
@@ -4237,32 +4250,6 @@
         "microsoft.orleans.core.abstractions.nuspec"
       ]
     },
-    "Microsoft.Orleans.OrleansProviders/2.0.0": {
-      "sha512": "QAAZT/2RSUgiK2hda0A3XuqUH4W0kdADqNSbrRbXlqymdUN+dv5bcvtxUbYza+7nO7gZwTxvoRDEEvNL5iUnKw==",
-      "type": "package",
-      "path": "microsoft.orleans.orleansproviders/2.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/netstandard2.0/OrleansProviders.dll",
-        "lib/netstandard2.0/OrleansProviders.xml",
-        "microsoft.orleans.orleansproviders.2.0.0.nupkg.sha512",
-        "microsoft.orleans.orleansproviders.nuspec"
-      ]
-    },
-    "Microsoft.Orleans.OrleansRuntime/2.0.0": {
-      "sha512": "WmuLSJiGkqSXYGxMo/wFYA353MLPbXgPHb5VMXxN5N46qyr4NmoBgiVZCVYjesZjBmfuUbJZ0PWXDqZKowAaRQ==",
-      "type": "package",
-      "path": "microsoft.orleans.orleansruntime/2.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/netstandard2.0/Orleans.Runtime.dll",
-        "lib/netstandard2.0/Orleans.Runtime.xml",
-        "microsoft.orleans.orleansruntime.2.0.0.nupkg.sha512",
-        "microsoft.orleans.orleansruntime.nuspec"
-      ]
-    },
     "Microsoft.Orleans.Persistence.AzureStorage/9.1.2": {
       "sha512": "l6+t5t+PwRMwYDRBCU9bH8MUfG9gwHIWSgiqORNU18Rg/iiyaTazoTazaPsTfH3IbV7cty54m1ZmZLv7+fwgFg==",
       "type": "package",
@@ -4291,6 +4278,20 @@
         "microsoft.orleans.persistence.dynamodb.nuspec"
       ]
     },
+    "Microsoft.Orleans.Persistence.Memory/9.1.2": {
+      "sha512": "BM5/mF98LFo91ozKD9ac2yBOEWlrV+PuHevHr6hboxUwRCEsCO4WGSrtEOacbUtbV8YCjB/r8z1ko9EpSc9Trg==",
+      "type": "package",
+      "path": "microsoft.orleans.persistence.memory/9.1.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net8.0/Orleans.Persistence.Memory.dll",
+        "lib/net8.0/Orleans.Persistence.Memory.xml",
+        "logo_128.png",
+        "microsoft.orleans.persistence.memory.9.1.2.nupkg.sha512",
+        "microsoft.orleans.persistence.memory.nuspec"
+      ]
+    },
     "Microsoft.Orleans.Runtime/9.1.2": {
       "sha512": "yxZyczTtrfKHcm2m6DgUQ5FKph5RAxoTnU5qCvS3E5X2NFHyY4E3OVHcmr74RBa6nYtvn7XpECzpARA7q9DMog==",
       "type": "package",
@@ -4303,19 +4304,6 @@
         "logo_128.png",
         "microsoft.orleans.runtime.9.1.2.nupkg.sha512",
         "microsoft.orleans.runtime.nuspec"
-      ]
-    },
-    "Microsoft.Orleans.Runtime.Abstractions/2.0.0": {
-      "sha512": "Qr8DjUvdlGVlBjJdk+Pgu1KFnYclnskswpVNS1psFMr6tfJsFmBzF5HVg7lWoT0JAMJoFSlidPxivxTRU8JUeg==",
-      "type": "package",
-      "path": "microsoft.orleans.runtime.abstractions/2.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/netstandard2.0/Orleans.Runtime.Abstractions.dll",
-        "lib/netstandard2.0/Orleans.Runtime.Abstractions.xml",
-        "microsoft.orleans.runtime.abstractions.2.0.0.nupkg.sha512",
-        "microsoft.orleans.runtime.abstractions.nuspec"
       ]
     },
     "Microsoft.Orleans.Sdk/9.1.2": {
@@ -4365,14 +4353,15 @@
         "microsoft.orleans.serialization.abstractions.nuspec"
       ]
     },
-    "Microsoft.Orleans.Server/2.0.0": {
-      "sha512": "F7MB0X1JvrmauSYPbbvSO8eWTKI7xednK891GIGgCb/3uTjMvkEAOqwR3a4No+Pzr3+hQk8U0SOjODfrEugm0A==",
+    "Microsoft.Orleans.Server/9.1.2": {
+      "sha512": "SApg87YjY6nS37Qc6WAjfLp7Fc7m0KBzTPogxyWJIpyAzHYJ8PV7SWMD2PrQ6YIuVpR8ZbCxyShUbxVPP1FB6g==",
       "type": "package",
-      "path": "microsoft.orleans.server/2.0.0",
+      "path": "microsoft.orleans.server/9.1.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "microsoft.orleans.server.2.0.0.nupkg.sha512",
+        "logo_128.png",
+        "microsoft.orleans.server.9.1.2.nupkg.sha512",
         "microsoft.orleans.server.nuspec"
       ]
     },
@@ -6628,7 +6617,7 @@
       "Microsoft.Orleans.Persistence.AzureStorage >= 9.1.2",
       "Microsoft.Orleans.Persistence.DynamoDB >= 9.1.2",
       "Microsoft.Orleans.SDK >= 9.1.2",
-      "Microsoft.Orleans.Server >= 1.11.2",
+      "Microsoft.Orleans.Server >= 9.1.2",
       "OpenTelemetry.Exporter.OpenTelemetryProtocol >= 1.11.2",
       "OpenTelemetry.Extensions.Hosting >= 1.9.0",
       "OpenTelemetry.Instrumentation.AspNetCore >= 1.11.1",
@@ -6706,7 +6695,7 @@
           },
           "Microsoft.Orleans.Server": {
             "target": "Package",
-            "version": "[1.11.2, )"
+            "version": "[9.1.2, )"
           },
           "OpenTelemetry.Exporter.OpenTelemetryProtocol": {
             "target": "Package",
@@ -6751,17 +6740,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1603",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Services.Kohdistuma.Unit.Twitch.OData depends on Microsoft.Orleans.Server (>= 1.11.2) but Microsoft.Orleans.Server 1.11.2 was not found. Microsoft.Orleans.Server 2.0.0 was resolved instead.",
-      "libraryId": "Microsoft.Orleans.Server",
-      "targetGraphs": [
-        "net9.0"
-      ]
-    }
-  ]
+  }
 }
