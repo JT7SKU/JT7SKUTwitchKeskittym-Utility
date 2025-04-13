@@ -14,7 +14,7 @@ public class Program
             {
                 opt.SiloName = $"KanavaSilo_{Path.GetFileNameWithoutExtension(Path.GetRandomFileName())}";
             });
-        })
+        });
         // Add services to the container.
         builder.Services.AddAuthorization();
 
